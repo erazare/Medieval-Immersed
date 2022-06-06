@@ -1,12 +1,12 @@
-[10:21:57] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[10:21:57] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[10:21:57] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
-[10:21:57] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[10:21:57] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.minecolonies.coremod.compatibility.journeymap.JourneymapPlugin
-[10:21:57] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[10:21:57] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
-[10:21:57] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.4, built with forge 1.18.2-40.1.0
-forge: 40.1.47
+[15:01:44] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[15:01:44] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[15:01:44] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[15:01:44] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[15:01:44] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.minecolonies.coremod.compatibility.journeymap.JourneymapPlugin
+[15:01:44] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[15:01:44] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
+[15:01:44] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.4, built with forge 1.18.2-40.1.0
+forge: 40.1.31
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
 	RadarPlayers : singleplayer = true , multiplayer = true
@@ -23,8 +23,21 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.8
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.8.4, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=true, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=false, createDeathpoints=true, showName=true, disableStrikeThrough=true, maxDistance=0, autoHideLabel=false, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.8.4, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.4, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.8.4, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=true, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=true, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.8.4, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[10:21:57] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 756.65ms
-[10:23:04] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[10:23:04] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\3raza\curseforge\minecraft\Instances\Medieval%20Immersed\mods\journeymap-1.18.2-5.8.4-forge.jar\assets\journeymap\theme\flat
-[10:23:04] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[10:23:04] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 220.14ms
+[15:01:45] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 597.79ms
+[15:02:56] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[15:02:56] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\3raza\curseforge\minecraft\Instances\Medieval%20Immersed\mods\journeymap-1.18.2-5.8.4-forge.jar\assets\journeymap\theme\flat
+[15:02:56] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[15:02:56] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 285.74ms
+[15:04:05] [Netty Client IO #1/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[15:04:36] [Render thread/INFO] [JourneymapClient] World UID is set to: 1664f4d0-7ec4-4146-9526-0f0a17ab38be
+[15:04:52] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\3raza\curseforge\minecraft\Instances\Medieval Immersed\journeymap\data\mp\Minecraft~Server_1664f4d0~7ec4~4146~9526~0f0a17ab38be\waypoints
+[15:04:52] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\3raza\curseforge\minecraft\Instances\Medieval Immersed\journeymap\data\mp\Minecraft~Server_1664f4d0~7ec4~4146~9526~0f0a17ab38be\overworld. Memory: 5088MB total, 1922MB free 
+[15:05:15] [Render thread/WARN] [TextureCache] Image not found: guardvillagers:textures/entity_icon/guard/guard_6.png
+[15:05:15] [Render thread/INFO] [ChatLog] 
+[15:05:38] [Render thread/WARN] [TextureCache] Image not found: snowpig:textures/entity_icon/snow_pig.png
+[15:05:43] [Render thread/WARN] [TextureCache] Image not found: untamedwilds:textures/entity_icon/camel/bactrian.png
+[15:05:43] [Render thread/WARN] [TextureCache] Image not found: untamedwilds:textures/entity_icon/big_cat/snow_leopard.png
+[15:05:52] [Render thread/WARN] [TextureCache] Image not found: creeperoverhaul:textures/entity_icon/snowy/snowy_creeper.png
+[15:05:55] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\3raza\curseforge\minecraft\Instances\Medieval Immersed\journeymap\data\mp\Minecraft~Server_1664f4d0~7ec4~4146~9526~0f0a17ab38be\minecraft:overworld
+[15:06:07] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[15:06:07] [Render thread/INFO] [JourneymapClient] World UID is set to: null
