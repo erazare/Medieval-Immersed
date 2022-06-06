@@ -1,0 +1,22 @@
+{
+  "id": "Amythest_225-2-324",
+  "name": "Amythest",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--130860-waypoint-icon.png",
+  "x": 225,
+  "y": 2,
+  "z": 324,
+  "r": 254,
+  "g": 0,
+  "b": 212,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

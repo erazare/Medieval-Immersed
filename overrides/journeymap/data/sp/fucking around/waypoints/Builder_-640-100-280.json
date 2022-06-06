@@ -1,0 +1,22 @@
+{
+  "id": "Builder_-640-100-280",
+  "name": "Builder",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16711951-waypoint-icon.png",
+  "x": -640,
+  "y": 100,
+  "z": 280,
+  "r": 0,
+  "g": 254,
+  "b": 241,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

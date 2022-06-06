@@ -1,0 +1,141 @@
+{
+	id: "4E5311E5A9BE9E8A"
+	group: ""
+	order_index: 6
+	filename: "the_end"
+	title: "The End"
+	icon: "minecraft:end_portal_frame"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			id: "2E9898DAD0AC7E1A"
+			tasks: [{
+				id: "267767DC5889F0D3"
+				type: "dimension"
+				title: "Enter the End"
+				icon: "minecraft:end_stone"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [
+				{
+					id: "6237615A6B3E0FB0"
+					type: "item"
+					item: "minecraft:end_stone"
+					count: 64
+				}
+				{
+					id: "62879A416ED0F3E4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["2E9898DAD0AC7E1A"]
+			id: "25A734B5D9854B23"
+			tasks: [{
+				id: "5561EA8C7A3F4547"
+				type: "kill"
+				title: "Kill the Ender Dragon"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2F672611EC87384E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C9912A4863A549D"
+					type: "item"
+					item: "forbidden_arcanus:arcane_dragon_egg"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["513B77A041F1CE54"]
+			id: "2DA69FA67C8DC67B"
+			tasks: [{
+				id: "0DEAD9B40C8048CB"
+				type: "kill"
+				title: "Kill the Void Worm"
+				icon: "alexsmobs:void_worm_eye"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "778197B9C1099179"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6285FDFB7BBF4986"
+					type: "item"
+					item: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["25A734B5D9854B23"]
+			id: "7C9538D443072DE9"
+			tasks: [{
+				id: "3BD81C5B8D0997BF"
+				type: "kill"
+				title: "Kill a Ender Golem"
+				icon: "cataclysm:void_core"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4DD27F6EF6BF7A2F"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "53FCC90E09670E10"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["7C9538D443072DE9"]
+			id: "513B77A041F1CE54"
+			tasks: [{
+				id: "1A40113238ADE055"
+				type: "kill"
+				title: "Kill the Ender Guardian"
+				icon: "cataclysm:ender_guardian_spawner"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7FC22D55E8C3715B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3925D5E6E97C6310"
+					type: "item"
+					item: "upgradednetherite:corrupt_upgraded_netherite_ingot"
+				}
+			]
+		}
+	]
+}

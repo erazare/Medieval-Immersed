@@ -1,0 +1,22 @@
+{
+  "id": "Warehouse_175-69-332",
+  "name": "Warehouse",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--130564-waypoint-icon.png",
+  "x": 175,
+  "y": 69,
+  "z": 332,
+  "r": 254,
+  "g": 1,
+  "b": 252,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Entrance-to-deserted-Mine_-785-138-260",
+  "name": "Entrance to deserted Mine",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--14879058-waypoint-icon.png",
+  "x": -785,
+  "y": 138,
+  "z": 260,
+  "r": 28,
+  "g": 246,
+  "b": 174,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,27 @@
+
+["VMH Size Minimum"]
+	# 
+	#-----------------------------------------------------
+	#
+	#Minimum size the variation of an entity.
+	#
+	#Range: 0.5 ~ 2.0
+	vmhSizeMin = 0.8
+
+["VMH Size Maximum"]
+	# 
+	#-----------------------------------------------------
+	#
+	#Maximum size the variation of an entity.
+	#
+	#Range: 0.5 ~ 2.0
+	vmhSizeMax = 1.2
+
+["VMH Do Buffs"]
+	# 
+	#-----------------------------------------------------
+	#
+	#Whether or not to vary movement speed, attack, and health/defense.
+	#
+	vmhDoBuffs = true
+

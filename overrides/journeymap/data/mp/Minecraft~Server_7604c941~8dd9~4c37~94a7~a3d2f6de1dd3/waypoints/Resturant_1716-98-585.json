@@ -1,0 +1,22 @@
+{
+  "id": "Resturant_1716-98-585",
+  "name": "Resturant",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16712184-waypoint-icon.png",
+  "x": 1716,
+  "y": 98,
+  "z": -585,
+  "r": 0,
+  "g": 254,
+  "b": 8,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Really-cool-area_30-67-241",
+  "name": "Really cool area",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--14119986-waypoint-icon.png",
+  "x": 30,
+  "y": 67,
+  "z": 241,
+  "r": 40,
+  "g": 139,
+  "b": 206,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

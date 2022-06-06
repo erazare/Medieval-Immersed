@@ -1,0 +1,22 @@
+{
+  "id": "Guard-Tower_145-78-344",
+  "name": "Guard Tower",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16711681-waypoint-icon.png",
+  "x": 145,
+  "y": 78,
+  "z": 344,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

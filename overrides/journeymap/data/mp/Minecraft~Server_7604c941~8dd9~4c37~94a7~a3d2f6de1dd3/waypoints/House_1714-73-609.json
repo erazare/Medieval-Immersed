@@ -1,0 +1,22 @@
+{
+  "id": "House_1714-73-609",
+  "name": "House",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--65306-waypoint-icon.png",
+  "x": 1714,
+  "y": 73,
+  "z": -609,
+  "r": 255,
+  "g": 0,
+  "b": 230,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

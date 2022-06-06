@@ -1,0 +1,22 @@
+{
+  "id": "Forester_-737-80-298",
+  "name": "Forester",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--14615040-waypoint-icon.png",
+  "x": -737,
+  "y": 80,
+  "z": 298,
+  "r": 32,
+  "g": 254,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

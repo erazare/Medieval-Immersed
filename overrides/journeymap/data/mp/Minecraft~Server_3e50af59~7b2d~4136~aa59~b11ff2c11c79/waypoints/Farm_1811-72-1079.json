@@ -1,0 +1,22 @@
+{
+  "id": "Farm_1811-72-1079",
+  "name": "Farm",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16712085-waypoint-icon.png",
+  "x": 1811,
+  "y": 72,
+  "z": 1079,
+  "r": 0,
+  "g": 254,
+  "b": 107,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

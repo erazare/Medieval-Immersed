@@ -1,0 +1,22 @@
+{
+  "id": "Guard_-626-115-285",
+  "name": "Guard",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--131071-waypoint-icon.png",
+  "x": -626,
+  "y": 115,
+  "z": 285,
+  "r": 254,
+  "g": 0,
+  "b": 1,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

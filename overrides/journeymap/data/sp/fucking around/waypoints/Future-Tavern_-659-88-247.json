@@ -1,0 +1,22 @@
+{
+  "id": "Future-Tavern_-659-88-247",
+  "name": "Future Tavern",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--2116142-waypoint-icon.png",
+  "x": -659,
+  "y": 88,
+  "z": 247,
+  "r": 223,
+  "g": 181,
+  "b": 210,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

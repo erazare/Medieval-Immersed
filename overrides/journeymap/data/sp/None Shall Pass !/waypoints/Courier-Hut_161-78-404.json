@@ -1,0 +1,22 @@
+{
+  "id": "Courier-Hut_161-78-404",
+  "name": "Courier Hut",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16759042-waypoint-icon.png",
+  "x": 161,
+  "y": 78,
+  "z": 404,
+  "r": 0,
+  "g": 70,
+  "b": 254,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

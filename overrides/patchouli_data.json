@@ -1,0 +1,18 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:enchanting/table/power",
+        "apotheosis:enchanting/utility/tomes"
+      ],
+      "bookmarks": [],
+      "history": [
+        "apotheosis:enchanting/utility/tomes",
+        "apotheosis:enchanting/table/power"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
