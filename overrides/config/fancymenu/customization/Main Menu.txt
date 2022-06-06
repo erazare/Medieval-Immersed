@@ -154,7 +154,7 @@ customization {
   action = addbutton
   y = 74
   label = Updates: 
-  value = https://github.com/erazare/Medieval-Immersion-MC
+  value = https://github.com/erazare/Medieval-Immersed
   height = 20
 }
 
