@@ -45,6 +45,7 @@
 #60EDC3 minecolonies:blockhutcitizen
 #3A8A39 minecolonies:blockhutlumberjack
 #E47A5A minecolonies:blockhutminer
+#EC6B9E minecolonies:blockhutwarehouse
 #36F082 minecolonies:blockminecoloniesgrave
 #973544 minecolonies:blockminecoloniesrack
 #D0FD32 quark:blossom_log
@@ -99,6 +100,7 @@
 #468304 minecraft:crafting_table
 #59E2AB quark:crimson_chest
 #E9A8F5 minecraft:crying_obsidian
+#E8A9D6 immersive_weathering:culturaldelights/avocado_leaf_pile
 #3C3897 minecraft:cut_sandstone
 #194874 minecraft:cyan_terracotta
 #9A6644 minecraft:cyan_wool
@@ -143,6 +145,7 @@
 #314645 tconstruct:earth_slime_leaves
 #F7856E byg:ebony_leaves
 #C00BD2 byg:ebony_log
+#348DB6 immersive_weathering:ecologics/walnut_leaf_pile
 #4C963A minecraft:emerald_ore
 #9E49D9 orcz:fakeleaf
 #009B14 minecraft:farmland
@@ -178,6 +181,7 @@
 #D7EADE minecraft:iron_ore
 #F9CCC4 byg:jacaranda_leaves
 #3A4E22 minecraft:jungle_fence
+#E8C33F immersive_weathering:jungle_leaf_pile
 #C1E251 minecraft:jungle_leaves
 #6B68B5 minecraft:jungle_log
 #F7CC06 minecraft:jungle_planks
@@ -294,6 +298,7 @@
 #07F8D3 byg:ripe_orchard_leaves
 #161B9E verdure:rock
 #EC112A byg:rocky_stone
+#991DF8 minecraft:rooted_dirt
 #9C3ECB minecraft:rose_bush
 #C25D9C forbidden_arcanus:runic_deepslate
 #86FC77 minecraft:sand

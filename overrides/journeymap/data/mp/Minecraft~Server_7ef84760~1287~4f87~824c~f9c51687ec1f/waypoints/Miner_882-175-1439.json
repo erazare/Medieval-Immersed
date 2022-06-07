@@ -1,0 +1,22 @@
+{
+  "id": "Miner_882-175-1439",
+  "name": "Miner",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--5826229-waypoint-icon.png",
+  "x": 882,
+  "y": 175,
+  "z": -1439,
+  "r": 167,
+  "g": 25,
+  "b": 75,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
