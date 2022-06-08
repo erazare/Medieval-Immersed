@@ -3,7 +3,7 @@
 	#Range: 0 ~ 54
 	sneakShowAmount = 54
 	#Range: 0 ~ 54
-	normalShowAmount = 0
+	normalShowAmount = 9
 	#Range: 1 ~ 18
 	showItemPreLine = 9
 	blacklist = ["refinedstorage:disk_drive"]

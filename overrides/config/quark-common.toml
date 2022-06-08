@@ -22,12 +22,12 @@
 	"Print Screen Classnames" = false
 	#A list of screens that can accept quark's buttons. Use "Print Screen Classnames" to find the names of any others you'd want to add.
 	"Allowed Screens" = []
+	#If set to true, the 'Allowed Screens' option will work as a Blacklist rather than a Whitelist. WARNING: Use at your own risk as some mods may not support this.
+	"Use Screen List Blacklist" = false
 	#Set to true to make the quark big worldgen features such as stone clusters generate as spheres rather than unique shapes. It's faster, but won't look as cool
 	"Use Fast Worldgen" = false
 	#Enables quark network profiling features. Do not enable this unless requested to.
 	"Enable Network Profiling" = false
-	#If set to true, the 'Allowed Screens' option will work as a Blacklist rather than a Whitelist. WARNING: Use at your own risk as some mods may not support this.
-	"Use Screen List Blacklist" = false
 
 [categories]
 	Automation = true
@@ -82,6 +82,7 @@
 [building]
 	"Wooden Posts" = true
 	"Vertical Slabs" = true
+	"Vertical Planks" = true
 	"Variant Ladders" = true
 	"Variant Furnaces" = true
 	"Variant Chests" = true
@@ -109,34 +110,40 @@
 	"Duskbound Blocks" = true
 	"Compressed Blocks" = true
 	"Celebratory Lamps" = true
-	"Vertical Planks" = true
 
-	[building.variant_ladders]
-		"Change Names" = true
+	[building.vertical_planks]
 		#This feature disables itself if any of the following mods are loaded: 
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
 
+	[building.variant_ladders]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - woodworks
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		"Change Names" = true
+
 	[building.variant_chests]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - woodworks
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 		"Replace Worldgen Chests" = true
 		"Enable Reverting Wooden Chests" = true
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest"]
-		#This feature disables itself if any of the following mods are loaded: 
-		# - woodworks
-		#This is done to prevent content overlap.
-		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
 
 	[building.variant_bookshelves]
-		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded: 
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
+		"Change Names" = true
 
 	[building.thatch]
 		#Allowed values: [0,1]
@@ -170,6 +177,13 @@
 		"Enable Dirt Bricks" = true
 		#Requires Cobblestone Bricks to be enabled
 		"Enable Netherrack Bricks" = true
+
+	[building.leaf_carpet]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - woodworks
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
 
 	[building.industrial_palette]
 		"Enable Iron Plates" = true
@@ -216,28 +230,17 @@
 	[building.celebratory_lamps]
 		"Light Level" = 15
 
-	[building.vertical_planks]
-		#This feature disables itself if any of the following mods are loaded: 
-		# - woodworks
-		#This is done to prevent content overlap.
-		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
-
-	[building.leaf_carpet]
-		#This feature disables itself if any of the following mods are loaded: 
-		# - woodworks
-		#This is done to prevent content overlap.
-		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
-
 [management]
+	"Quick Armor Swapping" = true
 	"Item Sharing" = true
 	"Inventory Sorting" = true
 	"Hotbar Changer" = true
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
 	"Chests In Boats" = true
-	"Quick Armor Swapping" = true
+
+	[management.quick_armor_swapping]
+		"Swap Off Hand" = true
 
 	[management.item_sharing]
 		"Render Items In Chat" = true
@@ -257,15 +260,13 @@
 	[management.easy_transfering]
 		"Enable Shift Lock" = true
 
-	[management.quick_armor_swapping]
-		"Swap Off Hand" = true
-
 [tools]
 	Trowel = true
 	"Slime In A Bucket" = true
 	"Seed Pouch" = true
 	Pickarang = true
 	"Pathfinder Maps" = true
+	"Parrot Eggs" = true
 	"Endermosh Music Disc" = true
 	"Color Runes" = true
 	Camera = true
@@ -275,7 +276,6 @@
 	"Ancient Tomes" = true
 	"Ambient Discs" = true
 	Abacus = true
-	"Parrot Eggs" = true
 
 	[tools.trowel]
 		#Amount of blocks placed is this value + 1.
@@ -291,24 +291,24 @@
 	[tools.pickarang]
 		#How long it takes before the Pickarang starts returning to the player if it doesn't hit anything.
 		Timeout = 20
+		#How long it takes before the Flamarang starts returning to the player if it doesn't hit anything.
+		"Netherite Timeout" = 20
 		#Pickarang harvest level. 2 is Iron, 3 is Diamond, 4 is Netherite.
 		"Harvest Level" = 3
 		#Flamarang harvest level. 2 is Iron, 3 is Diamond, 4 is Netherite.
-		"Netherite Harvest Level" = 3
+		"Netherite Harvest Level" = 4
 		#Pickarang durability. Set to -1 to have the Pickarang be unbreakable.
 		Durability = 800
 		#Flamarang durability. Set to -1 to have the Flamarang be unbreakable.
 		"Netherite Durability" = 1040
 		#Pickarang max hardness breakable. 22.5 is ender chests, 25.0 is monster boxes, 50 is obsidian. Most things are below 5.
 		"Max Hardness" = 20.0
+		#Flamarang max hardness breakable. 22.5 is ender chests, 25.0 is monster boxes, 50 is obsidian. Most things are below 5.
+		"Netherite Max Hardness" = 20.0
 		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
 		"Never Use Heart Of Diamond" = false
 		#Set this to true to disable the short cooldown between throwing Pickarangs.
 		"No Cooldown" = false
-		#How long it takes before the Flamarang starts returning to the player if it doesn't hit anything.
-		"Netherite Timeout" = 20
-		#Flamarang max hardness breakable. 22.5 is ender chests, 25.0 is monster boxes, 50 is obsidian. Most things are below 5.
-		"Netherite Max Hardness" = 20.0
 		#Set this to true to disable the short cooldown between throwing Flamarangs.
 		"Netherite No Cooldown" = false
 
@@ -332,6 +332,13 @@
 		"Search Distance Increment" = 8
 		"Xp From Trade" = 5
 
+	[tools.parrot_eggs]
+		#The chance feeding a parrot will produce an egg
+		Chance = 0.05
+		#How long it takes to create an egg
+		"Egg Time" = 12000
+		"Enable Special Awesome Parrot" = true
+
 	[tools.endermosh_music_disc]
 		"Play Endermosh During Enderdragon Fight" = false
 		"Add To End City Loot" = true
@@ -351,23 +358,16 @@
 		"Cloud Level Top" = 196
 
 	[tools.ancient_tomes]
+		#Format is lootTable,weight. i.e. "minecraft:chests/stronghold_library,30"
+		"Loot Tables" = ["minecraft:chests/stronghold_library,30", "minecraft:chests/simple_dungeon,20", "minecraft:chests/bastion_treasure,25", "minecraft:chests/woodland_mansion,15", "minecraft:chests/nether_bridge,0", "minecraft:chests/underwater_ruin_big,0", "minecraft:chests/underwater_ruin_small,0", "quark:misc/monster_box,5"]
 		"Item Quality" = 2
 		"Normal Upgrade Cost" = 10
 		"Limit Break Upgrade Cost" = 30
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
-		#Format is lootTable,weight. i.e. "minecraft:chests/stronghold_library,30"
-		"Loot Tables" = ["minecraft:chests/stronghold_library,30", "minecraft:chests/simple_dungeon,20", "minecraft:chests/bastion_treasure,25", "minecraft:chests/woodland_mansion,15", "minecraft:chests/nether_bridge,0", "minecraft:chests/underwater_ruin_big,0", "minecraft:chests/underwater_ruin_small,0", "quark:misc/monster_box,5"]
 		"Overleveled Books Glow Rainbow" = true
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
-
-	[tools.parrot_eggs]
-		#The chance feeding a parrot will produce an egg
-		Chance = 0.05
-		#How long it takes to create an egg
-		"Egg Time" = 12000
-		"Enable Special Awesome Parrot" = true
 
 	[tools.abacus]
 
@@ -379,6 +379,7 @@
 
 [tweaks]
 	"Villagers Follow Emeralds" = true
+	"Vexes Die With Their Masters" = true
 	"Utility Recipes" = true
 	"Snow Golem Player Heads" = true
 	"Simple Harvest" = true
@@ -386,11 +387,13 @@
 	"Replace Scaffolding" = true
 	"Reacharound Placing" = true
 	"Poison Potato Usage" = true
+	"Pig Litters" = true
 	"Pat The Dogs" = true
 	"Note Block Mob Sounds" = true
 	"More Banner Layers" = true
 	"Lock Rotation" = true
 	"Hoe Harvesting" = true
+	"Grab Chickens" = true
 	"Glass Shard" = true
 	"Enhanced Ladders" = true
 	Emotes = true
@@ -399,12 +402,9 @@
 	"Compasses Work Everywhere" = true
 	"Campfires Boost Elytra" = true
 	"Better Elytra Rocket" = true
-	"Automatic Recipe Unlock" = false
+	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
 	"Skull Pikes" = true
-	"Vexes Die With Their Masters" = true
-	"Pig Litters" = true
-	"Grab Chickens" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -457,9 +457,9 @@
 		#Allowed values: [0,1]
 		Leniency = 0.5
 		Whitelist = []
+		Blacklist = []
 		Display = "[  ]"
 		"Display Horizontal" = "<  >"
-		Blacklist = []
 
 		[tweaks.reacharound_placing.color]
 			R = 1.0
@@ -469,6 +469,17 @@
 	[tweaks.poison_potato_usage]
 		Chance = 0.1
 		"Poison Effect" = true
+
+	[tweaks.pig_litters]
+		#Allowed values: [1,)
+		"Min Pig Litter Size" = 2
+		#Allowed values: [1,)
+		"Max Pig Litter Size" = 3
+		"Pigs Eat Golden Carrots" = true
+		#Allowed values: [0,)
+		"Min Golden Carrot Boost" = 0
+		#Allowed values: [0,)
+		"Max Golden Carrot Boost" = 2
 
 	[tweaks.pat_the_dogs]
 		#How many ticks it takes for a dog to want affection after being pet/tamed; leave -1 to disable
@@ -481,6 +492,11 @@
 	[tweaks.more_banner_layers]
 		#Allowed values: [1,16]
 		"Layer Limit" = 16
+
+	[tweaks.grab_chickens]
+		"Needs No Helmet" = true
+		#Set to 0 to disable
+		"Slowness Level" = 1
 
 	[tweaks.enhanced_ladders]
 		#Allowed values: (,0]
@@ -521,36 +537,20 @@
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
 
-	[tweaks.pig_litters]
-		#Allowed values: [1,)
-		"Min Pig Litter Size" = 2
-		#Allowed values: [1,)
-		"Max Pig Litter Size" = 3
-		"Pigs Eat Golden Carrots" = true
-		#Allowed values: [0,)
-		"Min Golden Carrot Boost" = 0
-		#Allowed values: [0,)
-		"Max Golden Carrot Boost" = 2
-
-	[tweaks.grab_chickens]
-		"Needs No Helmet" = true
-		#Set to 0 to disable
-		"Slowness Level" = 1
-
 [world]
 	"Spiral Spires" = true
 	Permafrost = true
-	"New Stone Types" = false
+	"No More Lava Pockets" = true
+	"New Stone Types" = true
 	"Nether Obsidian Spikes" = true
-	"Monster Box" = false
+	"Monster Box" = true
+	"Glimmering Weald" = true
 	"Fairy Rings" = true
-	Corundum = false
+	Corundum = true
 	"Chorus Vegetation" = true
 	"Blossom Trees" = true
 	"Big Stone Clusters" = true
-	"Big Dungeon" = false
-	"No More Lava Pockets" = true
-	"Glimmering Weald" = true
+	"Big Dungeon" = true
 	"Azalea Wood" = true
 
 	[world.spiral_spires]
@@ -1152,8 +1152,8 @@
 		"Spawn Chance" = 0.1
 		"Loot Table" = "minecraft:chests/simple_dungeon"
 		"Max Rooms" = 10
-		"Min Start Y" = -10
-		"Max Start Y" = 10
+		"Min Start Y" = -40
+		"Max Start Y" = -20
 		"Chest Chance" = 0.5
 
 		[world.big_dungeon.biome_config]
@@ -1427,15 +1427,15 @@
 
 [client]
 	"Variant Animal Textures" = true
+	"Uses For Curses" = true
 	"Usage Ticker" = true
+	"Soul Candles" = true
 	"Microcrafting Helper" = true
 	"Improved Tooltips" = true
 	"Greener Grass" = true
 	"Chest Searching" = true
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = true
-	"Uses For Curses" = true
-	"Soul Candles" = true
 
 	[client.variant_animal_textures]
 		"Enable Cow" = true
@@ -1450,6 +1450,10 @@
 		"Shiny Animal Chance" = 2048
 		#If a shiny animal should emit occasional sparkles.
 		"Shiny Sparkles" = true
+
+	[client.uses_for_curses]
+		"Vanish Pumpkin Overlay" = true
+		"Bind Armor Stands With Player Heads" = true
 
 	[client.usage_ticker]
 		#Switch the armor display to the off hand side and the hand display to the main hand side
@@ -1491,14 +1495,6 @@
 			G = [0.0, 1.11, 0.0]
 			B = [0.0, 0.0, 0.89]
 
-	[client.auto_walk_keybind]
-		"Draw Hud" = true
-		"Hud Height" = 10
-
-	[client.uses_for_curses]
-		"Vanish Pumpkin Overlay" = true
-		"Bind Armor Stands With Player Heads" = true
-
 	[client.chest_searching]
 
 		[client.chest_searching.overlay_color]
@@ -1507,14 +1503,23 @@
 			G = 0.0
 			B = 0.0
 
+	[client.auto_walk_keybind]
+		"Draw Hud" = true
+		"Hud Height" = 10
+
 [experimental]
+	"Zombie Villagers On Normal" = false
+	"Spawner Replacer" = false
 	"Overlay Shader" = false
 	"Narrator Readout" = false
 	"Game Nerfs" = false
-	"Adjustable Chat" = false
-	"Zombie Villagers On Normal" = false
-	"Spawner Replacer" = false
 	"Enchantments Begone" = false
+	"Adjustable Chat" = false
+
+	[experimental.spawner_replacer]
+		#Mobs to be replaced with other mobs.
+		#Format is: "mob1,mob2", i.e. "minecraft:spider,minecraft:skeleton"
+		"Replace Mobs" = []
 
 	[experimental.overlay_shader]
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
@@ -1535,26 +1540,21 @@
 		#Makes Sheep not drop Wool when killed
 		"Disable Wool Drops" = true
 
+	[experimental.enchantments_begone]
+		"Enchantments To Begone" = []
+
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
 		"Vertical Shift" = 0
 
-	[experimental.spawner_replacer]
-		#Mobs to be replaced with other mobs.
-		#Format is: "mob1,mob2", i.e. "minecraft:spider,minecraft:skeleton"
-		"Replace Mobs" = []
-
-	[experimental.enchantments_begone]
-		"Enchantments To Begone" = []
-
 [oddities]
 	"Totem Of Holding" = true
+	"Tiny Potato" = true
 	Pipes = true
 	"Matrix Enchanting" = true
 	Magnets = true
 	Crate = true
 	Backpack = true
-	"Tiny Potato" = true
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
@@ -1566,6 +1566,15 @@
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
 		"Allow Anyone To Collect" = true
 		"Enable Soul Compass" = true
+
+	[oddities.tiny_potato]
+		#This feature disables itself if any of the following mods are loaded: 
+		# - botania
+		#This is done to prevent content overlap.
+		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
+		"Ignore Anti Overlap" = false
+		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
+		"Never Use Heart Of Diamond" = false
 
 	[oddities.pipes]
 		#How long it takes for an item to cross a pipe. Bigger = slower.
@@ -1613,6 +1622,9 @@
 		#An array of influences each candle should apply. This list must be 16 elements long, and is in order of wool colors.
 		#A minus sign before an enchantment will make the influence decrease the probability of that enchantment.
 		"Influences List" = ["minecraft:unbreaking", "minecraft:fire_protection", "minecraft:knockback,minecraft:punch", "minecraft:feather_falling", "minecraft:looting,minecraft:fortune,minecraft:luck_of_the_sea", "minecraft:blast_protection", "minecraft:silk_touch,minecraft:channeling", "minecraft:bane_of_arthropods", "minecraft:protection", "minecraft:respiration,minecraft:loyalty,minecraft:infinity", "minecraft:sweeping,minecraft:multishot", "minecraft:efficiency,minecraft:sharpness,minecraft:lure,minecraft:power,minecraft:impaling,minecraft:quick_charge", "minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide", "minecraft:thorns,minecraft:piercing", "minecraft:fire_aspect,minecraft:flame", "minecraft:smite,minecraft:projectile_protection"]
+		#An array of influences that other blocks should apply.
+		#Format is: "blockstate;strength;color;enchantments", i.e. "minecraft:sea_pickle[pickles=1,waterlogged=false];1;#008000;minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide" (etc) or "minecraft:anvil[facing=north];#808080;-minecraft:thorns,minecraft:unbreaking" (etc)
+		"States To Influences" = []
 		#Set to false to disable the ability to influence enchantment outcomes with candles
 		"Allow Influencing" = true
 		#The max amount of candles that can influence a single enchantment
@@ -1621,13 +1633,10 @@
 		"Influence Power" = 0.125
 		#If you set this to false, the vanilla Enchanting Table will no longer automatically convert to the Matrix Enchanting table. You'll have to add a recipe for the Matrix Enchanting Table to make use of this.
 		"Automatically Convert" = true
-		#An array of influences that other blocks should apply.
-		#Format is: "blockstate;strength;color;enchantments", i.e. "minecraft:sea_pickle[pickles=1,waterlogged=false];1;#008000;minecraft:aqua_affinity,minecraft:depth_strider,minecraft:riptide" (etc) or "minecraft:anvil[facing=north];#808080;-minecraft:thorns,minecraft:unbreaking" (etc)
-		"States To Influences" = []
 
 	[oddities.magnets]
 		#Any items you place in this list will be derived so that any block made of it will become magnetizable
-		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper"]
+		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore"]
 		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
 
@@ -1641,13 +1650,4 @@
 		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
 		"Extra Chance Per Looting" = 0.5
-
-	[oddities.tiny_potato]
-		#This feature disables itself if any of the following mods are loaded: 
-		# - botania
-		#This is done to prevent content overlap.
-		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
-		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
-		"Never Use Heart Of Diamond" = false
 

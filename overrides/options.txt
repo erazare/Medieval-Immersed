@@ -36,11 +36,11 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","Immersive Weathering Generated Pack","Supplementaries Generated Pack","quark:emote_resources","blue_skies:legacy_pack","Everycomp Generated Pack","immersive_weathering:better_brick_blocks","Snowyspirit Virtual Resourcepack","file/1.18.2-Dokucraft-High.zip","file/Xaero\u0027s Minimap - Mod Icons.zip","file/crosshair 1.17.1.zip"]
-incompatibleResourcePacks:["quark:emote_resources","file/crosshair 1.17.1.zip"]
+resourcePacks:["vanilla","blue_skies:legacy_pack","file/1.18.2-Dokucraft-High.zip","mod_resources","Everycomp Generated Pack","Immersive Weathering Generated Pack","Snowyspirit Virtual Resourcepack","Supplementaries Generated Pack","quark:emote_resources"]
+incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:
 lang:en_us
-soundDevice:OpenAL Soft on Speakers (Realtek High Definition Audio)
+soundDevice:
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
@@ -62,7 +62,7 @@ useNativeTransport:true
 mainHand:right
 attackIndicator:1
 narrator:0
-tutorialStep:none
+tutorialStep:punch_tree
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
@@ -119,9 +119,9 @@ key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket
 key_key.journeymap.minimap_preset:key.keyboard.backslash
-key_key.journeymap.create_waypoint:key.keyboard.backspace
+key_key.journeymap.create_waypoint:key.keyboard.b
 key_key.journeymap.toggle_waypoints:key.keyboard.z
-key_key.journeymap.fullscreen_create_waypoint:key.keyboard.backspace
+key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b
 key_key.journeymap.fullscreen_chat_position:key.keyboard.c
 key_key.journeymap.map_toggle_alt:key.keyboard.m
 key_key.journeymap.fullscreen_waypoints:key.keyboard.b:CONTROL
@@ -132,7 +132,7 @@ key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
-key_key.ftbchunks.map:key.keyboard.j
+key_key.ftbchunks.map:key.keyboard.backspace
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
 key_Toggle Drippy Customization Overlay | CTRL + ALT + :key.keyboard.l
@@ -180,9 +180,9 @@ key_keys.jobsplus.double_jump:key.keyboard.space
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
-key_key.curios.open.desc:key.keyboard.g
 key_key.pickup.item:key.keyboard.unknown
 key_key.veinmining.activate.desc:key.keyboard.unknown
+key_key.curios.open.desc:key.keyboard.g
 key_key.travelersbackpack.inventory:key.keyboard.b
 key_key.travelersbackpack.toggle_tank:key.keyboard.n
 key_key.travelersbackpack.cycle_tool:key.keyboard.z
@@ -190,15 +190,15 @@ key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.i:CONTROL
 key_key.firstperson.toggle:key.keyboard.f6
 key_key.backpack:key.keyboard.b
+key_key.hexerei.broomDescend:key.keyboard.left.shift
 key_treechop.key.toggle_chopping:scancode.0
 key_treechop.key.toggle_felling:scancode.0
 key_treechop.key.cycle_sneak_behavior:scancode.0
-key_key.hexerei.broomDescend:key.keyboard.left.shift
 key_treechop.key.open_settings_overlay:key.keyboard.n
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
-key_key.unionlib.open_union_inventory:key.keyboard.u
 key_Show comparison tooltip:key.keyboard.left.shift
+key_key.unionlib.open_union_inventory:key.keyboard.u
 key_key.ars_nouveau.open_book:key.keyboard.c
 key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.ars_nouveau.previous_slot:key.keyboard.z
@@ -212,27 +212,21 @@ key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.waila.narrate:key.keyboard.keypad.6
 key_key.waila.show_details:key.keyboard.left.shift
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_key.tconstruct.helmet_interact:key.keyboard.z
+key_key.tconstruct.leggings_interact:key.keyboard.i
+key_key.storagenetwork.remote:key.keyboard.i
+key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
-key_key.storagenetwork.remote:key.keyboard.i
-key_key.tconstruct.helmet_interact:key.keyboard.z
-key_key.tconstruct.leggings_interact:key.keyboard.i
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_mod.chiselsandbits.keys.key.modded-tool.open:key.keyboard.r
+key_quark.keybind.back:key.mouse.4
 key_key.inventoryhud.toggle:key.keyboard.i
 key_key.inventoryhud.openconfig:key.keyboard.o
 key_key.inventoryhud.togglepot:key.keyboard.unknown
 key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
-key_mod.chiselsandbits.keys.key.modded-tool.cycle.left:key.keyboard.unknown
-key_mod.chiselsandbits.keys.key.modded-tool.cycle.right:key.keyboard.unknown
-key_mod.chiselsandbits.keys.key.measuring-tape.reset:key.mouse.right:SHIFT
-key_mod.chiselsandbits.keys.key.undo:key.keyboard.z:CONTROL
-key_mod.chiselsandbits.keys.key.redo:key.keyboard.y:CONTROL
-key_mod.chiselsandbits.keys.key.zoom:key.keyboard.z
-key_quark.keybind.change_hotbar:key.keyboard.z
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -251,16 +245,22 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.lock_rotation:key.keyboard.k
+key_mod.chiselsandbits.keys.key.modded-tool.open:key.keyboard.r
+key_mod.chiselsandbits.keys.key.modded-tool.cycle.left:key.keyboard.unknown
+key_mod.chiselsandbits.keys.key.modded-tool.cycle.right:key.keyboard.unknown
+key_mod.chiselsandbits.keys.key.measuring-tape.reset:key.mouse.right:SHIFT
+key_mod.chiselsandbits.keys.key.undo:key.keyboard.z:CONTROL
+key_mod.chiselsandbits.keys.key.redo:key.keyboard.y:CONTROL
+key_mod.chiselsandbits.keys.key.zoom:key.keyboard.z
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
 key_tombstone.message.knowledge_of_death:key.keyboard.unknown
 key_key.player_companions.aggression:key.keyboard.left.alt
 key_key.player_companions.control:key.keyboard.left.control
 key_key.configured.open_mod_list:key.keyboard.unknown
-soundCategory_master:0.32394367
-soundCategory_music:0.13732395
+soundCategory_master:1.0
+soundCategory_music:0.19014084
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

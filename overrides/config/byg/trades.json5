@@ -88,7 +88,7 @@ to make editing this file much easier.
 						"cost": 8,
 						"item": "byg:wood_blewit",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -97,7 +97,7 @@ to make editing this file much easier.
 						"cost": 8,
 						"item": "byg:white_puffball_cap",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				}
@@ -109,7 +109,7 @@ to make editing this file much easier.
 						"item": "byg:white_puffball_spores",
 						"max_uses": 4,
 						"number_of_items": 5,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:items_for_emeralds"
 				},
@@ -118,7 +118,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "minecraft:crimson_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -127,7 +127,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "minecraft:warped_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -136,7 +136,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:sythian_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				}
@@ -148,7 +148,7 @@ to make editing this file much easier.
 						"item": "byg:witch_hazel_branch",
 						"max_uses": 4,
 						"number_of_items": 9,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:items_for_emeralds"
 				},
@@ -158,7 +158,7 @@ to make editing this file much easier.
 						"item": "byg:witch_hazel_blossom",
 						"max_uses": 10,
 						"number_of_items": 1,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:items_for_emeralds"
 				}
@@ -169,7 +169,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:imparius_mushroom",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 4
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -178,7 +178,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:shulkren_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 4
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -187,13 +187,34 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:fungal_imparius",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 4
 					},
 					"type": "byg:emerald_for_items"
 				}
 			]
 		},
 		"friendsandfoes:beekeeper": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"mca:archer": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"mca:guard": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"mca:outlaw": {
 			"1": [],
 			"2": [],
 			"3": [],

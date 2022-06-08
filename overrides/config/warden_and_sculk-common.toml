@@ -1,9 +1,0 @@
-
-["Config for Warden and Sculk Mod"]
-	#This is the value of the health of Warden. Default: 500
-	"Warden Health" = 500
-	#Uncheck to disable Warden generation. Default: true
-	"Warden Generation" = true
-	#Disable Sculk Catalyst. Default: true
-	"Sculk Propagation" = true
-

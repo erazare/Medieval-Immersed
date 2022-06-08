@@ -21,7 +21,7 @@
   },
   "blockSleeping": true,
   "spawnCategoryMultiplier": {
-    "monster": 1.5
+    "monster": 3.0
   },
   "lunarSpawnSettings": {
     "useBiomeSpawnSettings": true,
@@ -34,7 +34,8 @@
       "underground_water_creature": [],
       "water_creature": [],
       "water_ambient": [],
-      "misc": []
+      "misc": [],
+      "friendsandfoes:glares": []
     },
     "spawn_costs": {}
   },

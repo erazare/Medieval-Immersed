@@ -69,7 +69,7 @@
 	iron_gate = true
 	feather_block = true
 	flint_block = true
-	urn = false
+	urn = true
 	ash = true
 	ash_bricks = true
 	doormat = true

@@ -291,6 +291,7 @@ A guide for surface rules can be found here: https://github.com/TheForsakenFurby
 												"result_state": {
 													"Name": "minecraft:grass_block",
 													"Properties": {
+														"fertile": "true",
 														"snowy": "false"
 													}
 												},
@@ -332,7 +333,10 @@ A guide for surface rules can be found here: https://github.com/TheForsakenFurby
 										},
 										"then_run": {
 											"result_state": {
-												"Name": "minecraft:stone"
+												"Name": "minecraft:stone",
+												"Properties": {
+													"weathering": "false"
+												}
 											},
 											"type": "minecraft:block"
 										},
@@ -348,7 +352,10 @@ A guide for surface rules can be found here: https://github.com/TheForsakenFurby
 										},
 										"then_run": {
 											"result_state": {
-												"Name": "minecraft:stone"
+												"Name": "minecraft:stone",
+												"Properties": {
+													"weathering": "false"
+												}
 											},
 											"type": "minecraft:block"
 										},
@@ -510,6 +517,7 @@ A guide for surface rules can be found here: https://github.com/TheForsakenFurby
 														"result_state": {
 															"Name": "minecraft:podzol",
 															"Properties": {
+																"fertile": "true",
 																"snowy": "false"
 															}
 														},
@@ -714,7 +722,10 @@ A guide for surface rules can be found here: https://github.com/TheForsakenFurby
 									},
 									"then_run": {
 										"result_state": {
-											"Name": "minecraft:stone"
+											"Name": "minecraft:stone",
+											"Properties": {
+												"weathering": "false"
+											}
 										},
 										"type": "minecraft:block"
 									},
@@ -1227,6 +1238,7 @@ A guide for surface rules can be found here: https://github.com/TheForsakenFurby
 													"result_state": {
 														"Name": "minecraft:grass_block",
 														"Properties": {
+															"fertile": "true",
 															"snowy": "false"
 														}
 													},
@@ -1331,6 +1343,7 @@ A guide for surface rules can be found here: https://github.com/TheForsakenFurby
 													"result_state": {
 														"Name": "minecraft:podzol",
 														"Properties": {
+															"fertile": "true",
 															"snowy": "false"
 														}
 													},
@@ -1748,6 +1761,7 @@ A guide for surface rules can be found here: https://github.com/TheForsakenFurby
 														"result_state": {
 															"Name": "minecraft:grass_block",
 															"Properties": {
+																"fertile": "true",
 																"snowy": "false"
 															}
 														},
@@ -1973,6 +1987,7 @@ A guide for surface rules can be found here: https://github.com/TheForsakenFurby
 														"result_state": {
 															"Name": "minecraft:grass_block",
 															"Properties": {
+																"fertile": "true",
 																"snowy": "false"
 															}
 														},

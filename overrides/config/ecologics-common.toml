@@ -6,8 +6,6 @@
 	coconutCrabSpawnChance = 0.2
 	#Generate coconut trees on beaches
 	generateCoconutTrees = true
-	#Generate seashells on beaches
-	generateSeashells = true
 	#Count of coconut trees that should generate.
 	#Range: 0 ~ 100
 	coconutTreeCount = 0
@@ -17,6 +15,8 @@
 	#Chance of the extra coconut trees generating. If you want to make the trees less frequent than the default amount, make this value smaller.
 	#Range: 0.0 ~ 0.5
 	coconutTreeExtraCountChance = 0.5
+	#Generate seashells on beaches
+	generateSeashells = true
 
 #Desert Update
 [desert]

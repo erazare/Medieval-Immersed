@@ -16,14 +16,14 @@
   },
   "overlay": {
     "overlayPosX": 0.5,
-    "overlayPosY": 0.90326935,
+    "overlayPosY": 1.0,
     "overlayScale": 1.0,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
     "overlaySquare": false,
     "flipMainHand": false,
     "color": {
-      "alpha": 0.0,
+      "alpha": 0.7,
       "themes": {
         "jade:waila": {
           "id": "jade:waila",

@@ -29,9 +29,9 @@
 	#Show/Hide armor
 	showOff = true
 	#Show/Hide armor
-	showArrows = false
+	showArrows = true
 	#Show/Hide armor
-	showInv = false
+	showInv = true
 	#Armor HUD durability view (PERCENTAGE, DAMAGE, DAMAGE LEFT)
 	#Allowed Values: PERCENTAGE, DAMAGE, DAMAGE_LEFT, OFF
 	armView = "PERCENTAGE"
@@ -72,13 +72,13 @@
 	invValign = "BOTTOM"
 	#Inventory HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	invHalign = "LEFT"
+	invHalign = "MIDDLE"
 	#Inventory HUD position (X)
 	#Range: -9999 ~ 9999
 	xPos = 0
 	#Inventory HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPos = 52
+	yPos = 150
 	#Armor HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	armValign = "BOTTOM"
@@ -99,10 +99,10 @@
 	potHalign = "LEFT"
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 0
+	xPotionPos = 20
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 134
+	yPotionPos = 20
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
 	helmPosX = 103

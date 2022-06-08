@@ -11,7 +11,7 @@
 #-------------------------------------------
 #Default: true
 #-------------------------------------------
-"Boolean: Enable Armor Weights" = false
+"Boolean: Enable Armor Weights" = true
 #
 ############################################
 #Adds stamina exhaustion from interacting with blocks
@@ -21,7 +21,7 @@
 #Default: 1.0
 #-------------------------------------------
 #Range: 0.0 ~ 4.0
-"Float: Stamina Exhaustion From Interacting With Blocks" = 0.05
+"Float: Stamina Exhaustion From Interacting With Blocks" = 1.0
 #
 ############################################
 #Adds stamina exhaustion from interacting with items
@@ -31,7 +31,7 @@
 #Default: 1.0
 #-------------------------------------------
 #Range: 0.0 ~ 4.0
-"Float: Stamina Exhaustion From Interacting With Items" = 0.05
+"Float: Stamina Exhaustion From Interacting With Items" = 1.0
 #
 ############################################
 #Adds stamina exhaustion from breaking harvestable blocks
@@ -41,7 +41,7 @@
 #Default: 1.5
 #-------------------------------------------
 #Range: 0.0 ~ 4.0
-"Float: Stamina Exhaustion From Breaking Harvestable Blocks" = 0.05
+"Float: Stamina Exhaustion From Breaking Harvestable Blocks" = 1.5
 #
 ############################################
 #Adds stamina exhaustion from breaking non harvestable blocks
@@ -51,7 +51,7 @@
 #Default: 0.125
 #-------------------------------------------
 #Range: 0.0 ~ 4.0
-"Float: Stamina Exhaustion From Breaking Non-Harvestable Blocks" = 0.05
+"Float: Stamina Exhaustion From Breaking Non-Harvestable Blocks" = 0.125
 #
 ############################################
 #How often in ticks does the player recover stamina
@@ -60,7 +60,7 @@
 #Default: 300
 #-------------------------------------------
 #Range: 0 ~ 10000
-"Integer: Stamina Recovery Ticks" = 100
+"Integer: Stamina Recovery Ticks" = 300
 #
 ############################################
 #The maximum weight (kg) of armor that the player can carry without losing stamina

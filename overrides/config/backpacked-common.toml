@@ -8,7 +8,7 @@
 	backpackInventorySizeColumns = 9
 	#The amount of slot rows in the backpack inventory.
 	#Range: 1 ~ 7
-	backpackInventorySize = 4
+	backpackInventorySize = 1
 
 	[common.wandering_trader]
 		#If enabled, allows wandering traders to have a backpack equipped when they spawn.
@@ -27,12 +27,12 @@
 		#The amount of time (in ticks) a player has to wait before a Wandering Trader will like them again. If a player gets caught pickpocketing a Wandering Trader, the cooldown will be reset
 		#Range: 0 ~ 24000
 		dislikeCooldown = 6000
-		#The maximum size of an emerald stack that can generate in the Wandering Trader backpack
-		#Range: 1 ~ 64
-		maxEmeraldStack = 32
 		#Instead of generating trades as loot in the Wandering Traders backpacks, only generate emeralds.
 		generateEmeraldsOnly = false
 		#The maximum multiplier to apply when generating loot in the Wandering Trader backpack
 		#Range: 1 ~ 64
 		maxLootMultiplier = 12
+		#The maximum size of an emerald stack that can generate in the Wandering Trader backpack
+		#Range: 1 ~ 64
+		maxEmeraldStack = 32
 
