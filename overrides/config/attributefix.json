@@ -55,6 +55,17 @@
         "value": 10000000
       }
     },
+    "origins_classes:projectile_strength": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 10000000
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -338,6 +349,17 @@
       },
       "max": {
         "default": 20,
+        "value": 10000000
+      }
+    },
+    "origins_classes:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
         "value": 10000000
       }
     }

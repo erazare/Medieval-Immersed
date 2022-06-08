@@ -1,0 +1,10 @@
+#1FE byg:coconino_meadow
+#4CA minecraft:dripstone_caves
+#010 minecraft:forest
+#3A0 minecraft:frozen_river
+#2D6 minecraft:meadow
+#3DC minecraft:plains
+#5FF minecraft:river
+#4E5 minecraft:snowy_plains
+#282 byg:twilight_meadow
+#1DB byg:weeping_witch_forest

@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "supplementaries:block/hanging_signs/biomemakeover/hanging_sign_swamp_cypress_loader",
+      "y": 270
+    },
+    "axis=z": {
+      "model": "supplementaries:block/hanging_signs/biomemakeover/hanging_sign_swamp_cypress_loader"
+    }
+  }
+}
