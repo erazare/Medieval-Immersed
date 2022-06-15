@@ -81,3 +81,12 @@ journeymap.client.model.ChunkMD$ChunkMissingException: Chunk missing: [27, -110]
 [18:07:59] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/terrapin/terrapin_black.png
 [18:07:59] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/terrapin/terrapin_red_eared.png
 [21:26:33] [Render thread/WARN] [TextureCache] Image not found: blue_skies:textures/entity_icon/gatekeeper/gatekeeper.png
+[09:08:05] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/crow.png
+[09:13:14] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/bison.png
+[11:31:01] [JM-task-4/INFO] [StatTimer] TopoRenderer.renderSurface hit max count, 1000000
+[11:32:12] [JM-task-4/INFO] [StatTimer] BiomeRenderer.renderSurface hit max count, 1000000
+[11:56:00] [Render thread/INFO] [StateTickHandler] Keef_DGAF died at BlockPos{x=236, y=69, z=-444}. Deathpoints enabled: true. Deathpoint created: true
+[11:56:40] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/terrapin/overlay/terrapin_with_overlays.png
+[11:56:40] [Render thread/WARN] [TextureCache] Image not found: tconstruct:textures/entity_icon/sky_slime.png
+[13:28:52] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\3raza\curseforge\minecraft\Instances\Mid-evil\journeymap\data\mp\offline\minecraft:overworld
+[13:28:52] [JM-task-4/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@60a56e29
