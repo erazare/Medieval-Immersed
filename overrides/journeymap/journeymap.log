@@ -1,12 +1,11 @@
-[16:12:12] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[16:12:12] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[16:12:12] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
-[16:12:12] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[16:12:12] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.minecolonies.coremod.compatibility.journeymap.JourneymapPlugin
-[16:12:12] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[16:12:12] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: frankv.jmi.JMIJourneyMapPlugin
-[16:12:13] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.5, built with forge 1.18.2-40.1.0
-forge: 40.1.48
+[15:34:32] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[15:34:32] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[15:34:32] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[15:34:32] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[15:34:32] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.minecolonies.coremod.compatibility.journeymap.JourneymapPlugin
+[15:34:32] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[15:34:33] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.5, built with forge 1.18.2-40.1.0
+forge: 40.1.31
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
 	RadarPlayers : singleplayer = true , multiplayer = true
@@ -17,33 +16,68 @@ Features:
 	MapSurface : singleplayer = true , multiplayer = true
 	MapCaves : singleplayer = true , multiplayer = true
 	MapBiome : singleplayer = true , multiplayer = true
-MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.8.5, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.icons, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.icons, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.8.5, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.icons, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=false, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
 MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.8.5, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
 FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.8.5, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.icons, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.icons, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.8.5, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.8.5, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.5, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.8.5, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.8.5, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[16:12:13] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 814.13ms
-[16:13:24] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[16:13:24] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\3raza\curseforge\minecraft\Instances\Medieval%20Immersed\mods\journeymap-1.18.2-5.8.5-forge.jar\assets\journeymap\theme\flat
-[16:13:24] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
-[16:13:24] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 31.08ms
-[16:14:24] [Netty Client IO #1/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[16:14:58] [Render thread/INFO] [JourneymapClient] World UID is set to: 75e1b06e-d9e5-4975-b9b1-c2243120ea74
-[16:14:59] [Render thread/INFO] [WaypointGroupStore] Loaded WaypointGroups file C:\Users\3raza\curseforge\minecraft\Instances\Medieval Immersed\journeymap\data\mp\Minecraft~Server_75e1b06e~d9e5~4975~b9b1~c2243120ea74\waypoints\waypoint_groups.json
-[16:14:59] [Render thread/INFO] [WaypointGroupStore] Created WaypointGroups file: C:\Users\3raza\curseforge\minecraft\Instances\Medieval Immersed\journeymap\data\mp\Minecraft~Server_75e1b06e~d9e5~4975~b9b1~c2243120ea74\waypoints\waypoint_groups.json
-[16:15:20] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\3raza\curseforge\minecraft\Instances\Medieval Immersed\journeymap\data\mp\Minecraft~Server_75e1b06e~d9e5~4975~b9b1~c2243120ea74\waypoints
-[16:15:20] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\3raza\curseforge\minecraft\Instances\Medieval Immersed\journeymap\data\mp\Minecraft~Server_75e1b06e~d9e5~4975~b9b1~c2243120ea74\overworld. Memory: 3488MB total, 1222MB free 
-[16:16:08] [Render thread/WARN] [TextureCache] Image not found: aquaculture:textures/entity_icon/fish/bluegill.png
-[16:16:08] [Render thread/WARN] [TextureCache] Image not found: guardvillagers:textures/entity_icon/guard/guard_6.png
-[16:16:08] [Render thread/WARN] [TextureCache] Image not found: ecologics:textures/entity_icon/penguin.png
-[16:16:08] [Render thread/WARN] [TextureCache] Image not found: aquaculture:textures/entity_icon/fish/brown_trout.png
-[16:16:08] [Render thread/WARN] [TextureCache] Image not found: aquaculture:textures/entity_icon/fish/minnow.png
-[16:16:08] [Render thread/WARN] [TextureCache] Image not found: aquaculture:textures/entity_icon/fish/carp.png
-[16:16:08] [Render thread/WARN] [TextureCache] Image not found: aquaculture:textures/entity_icon/fish/perch.png
-[16:16:08] [Render thread/WARN] [TextureCache] Image not found: ecologics:textures/entity_icon/baby_penguin.png
-[16:16:08] [Render thread/WARN] [TextureCache] Image not found: dannys_expansion:textures/entity_icon/slime/medium_yellow_slime.png
-[16:16:09] [Render thread/INFO] [ChatLog] 
-[16:17:40] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\3raza\curseforge\minecraft\Instances\Medieval Immersed\journeymap\data\mp\Minecraft~Server_75e1b06e~d9e5~4975~b9b1~c2243120ea74\minecraft:overworld
-[16:17:51] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
-[16:17:51] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[15:34:33] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 871.71ms
+[15:35:19] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[15:35:20] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[15:35:20] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 555.88ms
+[15:45:11] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[15:45:47] [Render thread/INFO] [StateTickHandler] Keef_DGAF died at BlockPos{x=449, y=67, z=-78}. Deathpoints enabled: true. Deathpoint created: true
+[15:45:58] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[15:45:58] [Render thread/INFO] [WaypointStore] Loaded 24 waypoints from C:\Users\3raza\curseforge\minecraft\Instances\Mid-evil\journeymap\data\sp\If this works___\waypoints
+[15:45:59] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\3raza\curseforge\minecraft\Instances\Mid-evil\journeymap\data\sp\If this works___\overworld. Memory: 9424MB total, 5556MB free 
+[15:45:59] [Render thread/INFO] [ChatLog] 
+[15:46:08] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/maned_wolf.png
+[15:46:08] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/kangaroo.png
+[15:46:08] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/fly.png
+[15:46:08] [Render thread/WARN] [TextureCache] Image not found: dannys_expansion:textures/entity_icon/slime/medium_red_slime.png
+[15:46:08] [Render thread/WARN] [TextureCache] Image not found: dannys_expansion:textures/entity_icon/slime/big_yellow_slime.png
+[15:46:52] [JM-task-4/WARN] [StatTimer] SurfaceRenderer.renderSurface was slow: 1984.0373 (Warning limit reached)
+[15:46:52] [JM-task-4/WARN] [StatTimer] SurfaceRenderer.renderSurface: Avg:    49.92ms, Min:      3.8ms, Max:    4267.15ms, Total:         39 sec, Count:      790, Canceled:        0, Slow:       10
+[15:47:04] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/crocodile_0.png
+[15:47:04] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/terrapin/terrapin_green.png
+[15:47:04] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/elephant/elephant_tusks.png
+[15:47:04] [Render thread/WARN] [TextureCache] Image not found: dannys_expansion:textures/entity_icon/slime/medium_yellow_slime.png
+[15:47:09] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/terrapin/terrapin_painted.png
+[16:00:41] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/flying_fish_1.png
+[16:00:41] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/flying_fish_2.png
+[16:08:45] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/capuchin_monkey_0.png
+[16:08:45] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/leafcutter_ant.png
+[16:08:45] [Render thread/WARN] [TextureCache] Image not found: dannys_expansion:textures/entity_icon/slime/medium_blue_slime.png
+[16:11:42] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+journeymap.client.model.ChunkMD$ChunkMissingException: Chunk missing: [27, -110]
+	at journeymap.client.model.ChunkMD.getChunk(ChunkMD.java:375) ~[journeymap-1.18.2-5.8.5-forge.jar%23110!/:1.18.2-5.8.5]
+	at journeymap.client.model.ChunkMD.getPrecipitationHeight(ChunkMD.java:281) ~[journeymap-1.18.2-5.8.5-forge.jar%23110!/:1.18.2-5.8.5]
+	at journeymap.client.model.ChunkMD.getPrecipitationHeight(ChunkMD.java:264) ~[journeymap-1.18.2-5.8.5-forge.jar%23110!/:1.18.2-5.8.5]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:180) [journeymap-1.18.2-5.8.5-forge.jar%23110!/:1.18.2-5.8.5]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:125) [journeymap-1.18.2-5.8.5-forge.jar%23110!/:1.18.2-5.8.5]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:95) [journeymap-1.18.2-5.8.5-forge.jar%23110!/:1.18.2-5.8.5]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:155) [journeymap-1.18.2-5.8.5-forge.jar%23110!/:1.18.2-5.8.5]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) [journeymap-1.18.2-5.8.5-forge.jar%23110!/:1.18.2-5.8.5]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) [journeymap-1.18.2-5.8.5-forge.jar%23110!/:1.18.2-5.8.5]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) [journeymap-1.18.2-5.8.5-forge.jar%23110!/:1.18.2-5.8.5]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) [journeymap-1.18.2-5.8.5-forge.jar%23110!/:1.18.2-5.8.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[16:16:37] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/toucan/toucan_1.png
+[16:16:37] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/anteater.png
+[16:16:37] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/toucan/toucan_3.png
+[16:16:37] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/toucan/toucan_2.png
+[16:16:37] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/toucan/toucan_0.png
+[16:16:37] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/capuchin_monkey_2.png
+[17:14:50] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/raccoon.png
+[17:17:43] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/catfish_small.png
+[18:07:59] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/terrapin/terrapin_brown.png
+[18:07:59] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/catfish_medium.png
+[18:07:59] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/terrapin/terrapin_black.png
+[18:07:59] [Render thread/WARN] [TextureCache] Image not found: alexsmobs:textures/entity_icon/terrapin/terrapin_red_eared.png
+[21:26:33] [Render thread/WARN] [TextureCache] Image not found: blue_skies:textures/entity_icon/gatekeeper/gatekeeper.png

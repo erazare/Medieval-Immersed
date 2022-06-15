@@ -1,0 +1,22 @@
+{
+  "id": "Danger_-3178-111-2419",
+  "name": "Danger",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--175352-waypoint-icon.png",
+  "x": -3178,
+  "y": 111,
+  "z": -2419,
+  "r": 253,
+  "g": 83,
+  "b": 8,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

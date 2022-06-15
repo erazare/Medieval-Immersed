@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = true
-  world = 127.0.0.1:25565
+  is_server = false
+  world = C:/Users/3raza/curseforge/minecraft/Instances/Mid-evil/saves/If this works___
 }
 

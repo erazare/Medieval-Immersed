@@ -10,48 +10,6 @@ to make editing this file much easier.
 {
 	// Trades for a given villager profession. Trade levels are in the range of 1-5
 	"trades_by_profession": {
-		"blue_skies:alchemist": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"blue_skies:nightwatcher": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"blue_skies:shoveler": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"blue_skies:stargazer": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"blue_skies:summoner": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"blue_skies:wrangler": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
 		"byg:forager": {
 			"1": [
 				{
@@ -192,13 +150,6 @@ to make editing this file much easier.
 					"type": "byg:emerald_for_items"
 				}
 			]
-		},
-		"friendsandfoes:beekeeper": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
 		},
 		"mca:archer": {
 			"1": [],
@@ -485,62 +436,6 @@ to make editing this file much easier.
 			"5": []
 		},
 		"minecraft:weaponsmith": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:enderian": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:engineer": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:florist": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:hunter": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:miner": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:netherian": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:oceanographer": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": []
-		},
-		"morevillagers:woodworker": {
 			"1": [],
 			"2": [],
 			"3": [],
@@ -848,6 +743,166 @@ to make editing this file much easier.
 				"config": {
 					"emerald_cost": 5,
 					"item": "byg:zelkova_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:withering_oak_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:araucaria_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:blue_spruce_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:brown_birch_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:brown_oak_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:brown_zelkova_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:joshua_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:orange_birch_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:orange_oak_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:orange_spruce_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:orchard_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:red_birch_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:red_oak_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:red_spruce_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:yellow_birch_sapling",
+					"max_uses": 12,
+					"number_of_items": 1,
+					"villager_xp": 2
+				},
+				"type": "byg:items_for_emeralds"
+			},
+			{
+				"config": {
+					"emerald_cost": 5,
+					"item": "byg:yellow_spruce_sapling",
 					"max_uses": 12,
 					"number_of_items": 1,
 					"villager_xp": 2

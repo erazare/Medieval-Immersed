@@ -1,8 +1,0 @@
-#46B byg:autumnal_forest
-#3A0 minecraft:frozen_river
-#154 minecraft:ice_spikes
-#72D minecraft:snowy_beach
-#4E5 minecraft:snowy_plains
-#340 minecraft:snowy_taiga
-#05C minecraft:windswept_gravelly_hills
-#4C3 minecraft:windswept_hills

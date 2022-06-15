@@ -16,15 +16,15 @@ I:defaultguiscale = '-1';
 ##[customization]
 
 B:advancedmode = 'false';
-B:showcustomizationbuttons = 'false';
+B:showcustomizationbuttons = 'true';
 
 
 ##[mainmenu]
 
 B:hidebranding = 'true';
-B:hidelogo = 'true';
-B:hiderealmsnotifications = 'true';
-B:hideforgenotifications = 'true';
+B:hidelogo = 'false';
+B:hiderealmsnotifications = 'false';
+B:hideforgenotifications = 'false';
 
 
 ##[mainmenu_splash]
@@ -33,7 +33,7 @@ S:splashcolor = '#ffff00';
 I:splashrotation = '-20';
 I:splashy = '0';
 I:splashx = '0';
-B:hidesplashtext = 'true';
+B:hidesplashtext = 'false';
 S:splashtextfile = '';
 S:splashorientation = 'original';
 
@@ -44,7 +44,7 @@ B:allowgameintroskip = 'true';
 S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
-B:preloadanimations = 'true';
+B:preloadanimations = 'false';
 S:customgameintroskiptext = '';
 
 
@@ -62,6 +62,16 @@ B:showloadingscreenanimation = 'true';
 B:showloadingscreenpercent = 'true';
 
 
+##[multiplayer_screen]
+
+B:show_server_icons = 'true';
+
+
+##[singleplayer_screen]
+
+B:show_world_icons = 'true';
+
+
 ##[layouteditor]
 
 I:gridsize = '10';
@@ -74,13 +84,3 @@ B:showvanillamovewarning = 'true';
 ##[ui]
 
 F:uiscale = '1.0';
-
-
-##[multiplayer_screen]
-
-B:show_server_icons = 'true';
-
-
-##[singleplayer_screen]
-
-B:show_world_icons = 'true';
