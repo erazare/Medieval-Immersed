@@ -1,0 +1,22 @@
+{
+  "id": "University_127-63-1703",
+  "name": "University",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16713473-waypoint-icon.png",
+  "x": 127,
+  "y": 63,
+  "z": -1703,
+  "r": 0,
+  "g": 248,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

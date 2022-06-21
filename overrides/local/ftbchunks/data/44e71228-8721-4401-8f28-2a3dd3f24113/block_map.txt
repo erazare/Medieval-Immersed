@@ -31,6 +31,7 @@
 #E47A5A minecolonies:blockhutminer
 #AA6FE7 minecolonies:blockhuttavern
 #6CA05D minecolonies:blockhutuniversity
+#36F082 minecolonies:blockminecoloniesgrave
 #973544 minecolonies:blockminecoloniesrack
 #15C8D4 minecraft:bookshelf
 #8AE729 minecraft:brain_coral_block
@@ -49,6 +50,7 @@
 #7FDE54 minecraft:clay
 #DE242D minecraft:coal_ore
 #FE4F0A minecraft:coarse_dirt
+#2848C0 minecraft:cobbled_deepslate
 #058353 minecraft:cobblestone
 #7331AC minecraft:cobblestone_slab
 #3D8BFC minecraft:cobblestone_stairs
@@ -247,6 +249,7 @@
 #64F88A minecraft:spruce_slab
 #D9135A minecraft:spruce_stairs
 #B1D22B minecraft:spruce_trapdoor
+#375A43 supplementaries:stick
 #DC3458 minecraft:stone
 #B21185 minecraft:stone_brick_slab
 #43D995 minecraft:stone_brick_stairs

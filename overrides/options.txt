@@ -36,11 +36,11 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","file/Winthor_Medieval_1.18_v6.8.zip","mod_resources","file/Medieval Music Discs-3.0.zip","file/Medieval Paintings.zip","file/MedievalMusic.zip","quark:emote_resources","file/idasconfig.zip","file/idasbop.zip"]
-incompatibleResourcePacks:["file/MedievalMusic.zip","quark:emote_resources","file/idasconfig.zip","file/idasbop.zip"]
+resourcePacks:["vanilla","file/Winthor_Medieval_1.18_v6.8.zip","blue_skies:legacy_pack","mod_resources","file/Medieval Paintings.zip","quark:emote_resources","Supplementaries Generated Pack","file/Medieval Background Music.zip"]
+incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:
 lang:en_us
-soundDevice:
+soundDevice:OpenAL Soft on SAMSUNG (NVIDIA High Definition Audio)
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
@@ -66,10 +66,10 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -89,7 +89,7 @@ key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
-key_key.socialInteractions:key.keyboard.p
+key_key.socialInteractions:key.keyboard.unknown
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
 key_key.smoothCamera:key.keyboard.unknown
@@ -112,6 +112,8 @@ key_flight_descent:key.keyboard.z
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
 key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
+key_key.the_bumblezone.beehemoth_up:key.keyboard.space
+key_key.the_bumblezone.beehemoth_down:key.keyboard.space
 key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket
@@ -129,12 +131,9 @@ key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
-key_key.the_bumblezone.beehemoth_up:key.keyboard.space
-key_key.the_bumblezone.beehemoth_down:key.keyboard.space
 key_key.ftbchunks.map:key.keyboard.backspace
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
-key_Toggle Drippy Customization Overlay | CTRL + ALT + :key.keyboard.l
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
@@ -164,7 +163,9 @@ key_key.jei.previousRecipePage:key.keyboard.page.up
 key_key.jei.nextRecipePage:key.keyboard.page.down
 key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
+key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.carry.desc:key.keyboard.left.shift
 key_key.origins.primary_active:key.keyboard.g
 key_key.origins.secondary_active:key.keyboard.unknown
 key_key.origins.view_origin:key.keyboard.o
@@ -177,16 +178,16 @@ key_key.primalmagick.grimoire_prev_topic:key.keyboard.backspace
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_servertabinfo.keys.show:key.keyboard.tab:CONTROL
 key_key.curios.open.desc:key.keyboard.g
 key_key.jed.open_gui:key.keyboard.left.shift
 key_key.ftbquests.quests:key.keyboard.j
+key_key.unionlib.open_union_inventory:key.keyboard.u
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.waila.show_recipe_input:key.keyboard.keypad.3
 key_key.waila.show_recipe_output:key.keyboard.keypad.4
-key_key.tconstruct.helmet_interact:key.keyboard.z
-key_key.tconstruct.leggings_interact:key.keyboard.i
 key_mod.chiselsandbits.keys.key.modded-tool.open:key.keyboard.r
 key_mod.chiselsandbits.keys.key.modded-tool.cycle.left:key.keyboard.unknown
 key_mod.chiselsandbits.keys.key.modded-tool.cycle.right:key.keyboard.unknown
@@ -194,6 +195,8 @@ key_mod.chiselsandbits.keys.key.measuring-tape.reset:key.mouse.right:SHIFT
 key_mod.chiselsandbits.keys.key.undo:key.keyboard.z:CONTROL
 key_mod.chiselsandbits.keys.key.redo:key.keyboard.y:CONTROL
 key_mod.chiselsandbits.keys.key.zoom:key.keyboard.z
+key_key.tconstruct.helmet_interact:key.keyboard.z
+key_key.tconstruct.leggings_interact:key.keyboard.i
 key_key.inventoryhud.toggle:key.keyboard.i
 key_key.inventoryhud.openconfig:key.keyboard.o
 key_key.inventoryhud.togglepot:key.keyboard.unknown
@@ -217,19 +220,20 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_key.unionlib.open_union_inventory:key.keyboard.u
-key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.change_hotbar:key.keyboard.z
 key_quark.keybind.lock_rotation:key.keyboard.k
-key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.autorun:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
+key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
+key_info.structure_gel.building_tool.redo:key.keyboard.y:CONTROL
 key_tombstone.message.knowledge_of_death:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c

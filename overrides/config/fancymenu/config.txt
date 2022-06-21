@@ -22,9 +22,9 @@ B:showcustomizationbuttons = 'false';
 ##[mainmenu]
 
 B:hidebranding = 'true';
-B:hidelogo = 'false';
-B:hiderealmsnotifications = 'false';
-B:hideforgenotifications = 'false';
+B:hidelogo = 'true';
+B:hiderealmsnotifications = 'true';
+B:hideforgenotifications = 'true';
 
 
 ##[mainmenu_splash]
@@ -33,7 +33,7 @@ S:splashcolor = '#ffff00';
 I:splashrotation = '-20';
 I:splashy = '0';
 I:splashx = '0';
-B:hidesplashtext = 'false';
+B:hidesplashtext = 'true';
 S:splashtextfile = '';
 S:splashorientation = 'original';
 

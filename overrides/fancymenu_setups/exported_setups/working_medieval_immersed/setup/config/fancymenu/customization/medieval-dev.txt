@@ -1,0 +1,32 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resourcepacks/Custom/logo.png
+  orientation = top-left
+  x = 74
+  width = 527
+  action = addtexture
+  actionid = 2984cfa5-0616-4f32-a804-4447137a6e531655581264593
+  y = 13
+  height = 116
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = Solo Player
+}
+

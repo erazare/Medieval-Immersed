@@ -41,6 +41,7 @@
   "villagerHealthBonusPerLevel": 5,
   "useSquidwardModels": false,
   "enableBoobs": true,
+  "burnedClothingTickLength": 3600,
   "guardSpawnRate": 6,
   "taxesFactor": 0.5,
   "taxSeason": 168000,
@@ -74,7 +75,9 @@
   "allowDestinyTeleportation": true,
   "enableVillagerPlayerModel": true,
   "forceVillagerPlayerModel": false,
-  "allowPlayerEditor": true,
+  "allowLimitedPlayerEditor": true,
+  "allowFullPlayerEditor": false,
+  "useModernUSANamesOnly": false,
   "guardsTargetEntities": {
     "minecraft:creeper": -1,
     "minecraft:drowned": 2,
