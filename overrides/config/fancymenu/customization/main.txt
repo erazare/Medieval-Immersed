@@ -1,0 +1,71 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604334%
+  orientation = top-centered
+  x = 104
+  action = movebutton
+  y = 205
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=6043341%
+  orientation = top-centered
+  x = 104
+  action = movebutton
+  y = 204
+}
+
+customization {
+  path = resourcepacks/Custom/logo.png
+  orientation = top-left
+  x = 74
+  width = 527
+  action = addtexture
+  actionid = 2984cfa5-0616-4f32-a804-4447137a6e531655581264593
+  y = 13
+  height = 116
+}
+
+customization {
+  identifier = %id=376310%
+  orientation = top-left
+  x = 217
+  action = movebutton
+  y = 204
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = Solo Player
+}
+customization {
+  orientation = bottom-left
+  shadow = true
+  x = 2
+  action = addtext
+  actionid = cc5600b5-02ab-4d30-93e6-c43ba84cd3041642922660308
+  y = -11
+  scale = 1.0
+  alignment = left
+  value = Created by Keef_DGAF
+}
