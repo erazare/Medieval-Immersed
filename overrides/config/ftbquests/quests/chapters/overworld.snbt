@@ -1,5 +1,5 @@
 {
-	id: "2CB5DA4EA2917A3A"
+	id: "2CE7CD065D6398F2"
 	group: "36CCE5D2F4D74DF9"
 	order_index: 0
 	filename: "overworld"
@@ -7,114 +7,22 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
-		x: -21.5d
-		y: -21.0d
-		shape: "square"
-		description: ["Build your kingdom"]
-		dependency_requirement: "all_started"
-		id: "427ECC13712A5B2F"
+		x: -6.0d
+		y: 0.0d
+		description: ["Now go forth and conquer..."]
+		id: "656607B0BDDF6FE3"
 		tasks: [{
-			id: "68E671B05AB891A7"
+			id: "1B2F6347E2D7B752"
 			type: "advancement"
-			advancement: "minecolonies:minecolonies/place_townhall"
+			title: "A whole new world"
+			advancement: "mca:root"
 			criterion: ""
 		}]
 		rewards: [{
-			id: "5E78272BBE271273"
+			id: "3FCF4AC4920D63E1"
 			type: "item"
-			item: "minecolonies:supplycampdeployer"
+			item: "minecraft:emerald"
+			count: 25
 		}]
-{
-			x: 4.0d
-			y: -3.0d
-			id: "268A05DFD4D5427A"
-			tasks: [{
-				id: "08CA723FD16E3030"
-				type: "item"
-				title: "Obtain a Blue Journal from the Gatekeeper"
-				item: "blue_skies:blue_journal"
-			}]
-			rewards: [
-				{
-					id: "14F327BA69B975BD"
-					type: "item"
-					item: "blue_skies:turquoise_stonebrick"
-					count: 12
-				}
-				{
-					id: "2D05266B3F98B211"
-					type: "item"
-					item: "blue_skies:lunar_stonebrick"
-					count: 12
-				}
-				{
-					id: "187889738A206AE9"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 1.0d
-			y: -3.0d
-			id: "12022ECF40340A66"
-			tasks: [{
-				id: "4B917B890DD1D76D"
-				type: "item"
-				title: "Craft a Sophisticated Backpack"
-				item: {
-					id: "sophisticatedbackpacks:backpack"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [
-				{
-					id: "221CE60B83CCB2DC"
-					type: "item"
-					item: "minecolonies:supplycampdeployer"
-				}
-				{
-					id: "717E1BB058C63FB5"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 2.5d
-			y: -3.0d
-			id: "7051257F7989BC96"
-			tasks: [{
-				id: "3615D8F9CED4CC5D"
-				type: "kill"
-				title: "Kill the Conjurer"
-				icon: {
-					id: "conjurer_illager:conjurer_hat"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				entity: "conjurer_illager:conjurer"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "3FE50FCF0E16FEC3"
-					type: "item"
-					item: {
-						id: "xpbook:xp_tome"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "5DCC93EF57D34289"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
 	}]
 }

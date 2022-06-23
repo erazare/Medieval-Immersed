@@ -35,6 +35,14 @@ customization {
 }
 
 customization {
+  identifier = %id=376310%
+  orientation = top-left
+  x = 217
+  action = movebutton
+  y = 204
+}
+
+customization {
   path = resourcepacks/Custom/logo.png
   orientation = top-left
   x = 74
@@ -46,18 +54,31 @@ customization {
 }
 
 customization {
-  identifier = %id=376310%
-  orientation = top-left
-  x = 217
-  action = movebutton
-  y = 204
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 103
+  width = 20
+  actionid = 1c4e5ece-f04d-4e83-a89b-4aafa631f6fa1638450473700
+  action = addbutton
+  y = -13
+  label = 
+  value = https://discord.gg/J3YxG4W6Jc
+  height = 20
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  action = setbuttonlabel
-  value = Solo Player
+  path = resourcepacks/Custom/discord.png
+  orientation = mid-centered
+  x = 106
+  width = 14
+  action = addtexture
+  actionid = 10f39800-b951-4b18-9c0d-1f68714c03971638450613884
+  y = -10
+  height = 15
 }
+
 customization {
   orientation = bottom-left
   shadow = true
@@ -69,3 +90,22 @@ customization {
   alignment = left
   value = Created by Keef_DGAF
 }
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 281
+  action = addtext
+  actionid = 359fdefb-c2f8-43ae-8136-a3b9f40635c71655996682940
+  y = 185
+  scale = 1.0
+  alignment = left
+  value = Join our offical discord
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = Solo Player
+}
+

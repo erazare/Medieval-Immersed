@@ -1,0 +1,24 @@
+{
+  "id": "Zurarker_-338-64-391",
+  "name": "Zurarker",
+  "groupName": ":Waystones",
+  "displayId": "f3957ae1-aa2d-4e13-87c3-00314af762e5",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1-waypoint-icon.png",
+  "x": -338,
+  "y": 64,
+  "z": -391,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "waystones",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

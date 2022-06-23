@@ -1,5 +1,6 @@
 #15A biomesoplenty:bayou
 #556 minecraft:beach
+#34D minecraft:deep_lukewarm_ocean
 #010 minecraft:forest
 #79A minecraft:lukewarm_ocean
 #47F biomesoplenty:mediterranean_forest
@@ -7,8 +8,10 @@
 #3DC minecraft:plains
 #5FF minecraft:river
 #67B minecraft:savanna
+#706 minecraft:savanna_plateau
 #274 biomesoplenty:scrubland
 #14C biomesoplenty:spider_nest
+#51A minecraft:stony_shore
 #4D3 minecraft:swamp
 #579 minecraft:windswept_savanna
 #7F2 biomesoplenty:woodland

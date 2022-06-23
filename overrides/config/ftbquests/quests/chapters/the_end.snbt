@@ -1,0 +1,10 @@
+{
+	id: "2F46CDE4CFE1FA26"
+	group: "36CCE5D2F4D74DF9"
+	order_index: 2
+	filename: "the_end"
+	title: "The End"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

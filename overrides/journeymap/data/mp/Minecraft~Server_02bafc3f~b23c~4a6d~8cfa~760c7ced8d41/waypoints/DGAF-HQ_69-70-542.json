@@ -1,0 +1,24 @@
+{
+  "id": "DGAF-HQ_69-70-542",
+  "name": "DGAF HQ",
+  "groupName": ":Waystones",
+  "displayId": "1084fc90-be0f-41f9-a9eb-ea3f59daecfd",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1-waypoint-icon.png",
+  "x": 69,
+  "y": 70,
+  "z": -542,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "waystones",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

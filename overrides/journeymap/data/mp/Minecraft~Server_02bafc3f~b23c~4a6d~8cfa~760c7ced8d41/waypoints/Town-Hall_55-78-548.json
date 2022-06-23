@@ -1,0 +1,22 @@
+{
+  "id": "Town-Hall_55-78-548",
+  "name": "Town Hall",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--288510-waypoint-icon.png",
+  "x": 55,
+  "y": 78,
+  "z": -548,
+  "r": 251,
+  "g": 153,
+  "b": 2,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

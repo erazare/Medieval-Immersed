@@ -1,0 +1,22 @@
+{
+  "id": "Builder-2_34-72-553",
+  "name": "Builder #2",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--65997-waypoint-icon.png",
+  "x": 34,
+  "y": 72,
+  "z": -553,
+  "r": 254,
+  "g": 254,
+  "b": 51,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
