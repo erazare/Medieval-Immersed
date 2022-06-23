@@ -1,5 +1,5 @@
 # Medieval-Immersed
-Medieval Immersed Modpack for MineCraft 1.18.2 -FORGE 40.1.31- Beta v1.01
+Medieval Immersed Modpack for MineCraft 1.18.2 -FORGE 40.1.31- Beta v1.02
 
 Currently Beta, this is the initial release for CurseForge.
 this project is completely open source, none of the mods were made by me nor are they individually supported here.
