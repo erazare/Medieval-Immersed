@@ -1,0 +1,24 @@
+{
+  "id": "Morirure_-1591-68-913",
+  "name": "Morirure",
+  "groupName": ":Waystones",
+  "displayId": "62ee8439-0ebf-4a0f-9c20-0cb2b9e7f722",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1-waypoint-icon.png",
+  "x": -1591,
+  "y": 68,
+  "z": 913,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "waystones",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

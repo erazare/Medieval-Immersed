@@ -1,0 +1,16 @@
+#556 minecraft:beach
+#47F minecraft:birch_forest
+#02B biomesoplenty:cherry_blossom_grove
+#735 biomesoplenty:coniferous_forest
+#4F9 minecraft:dark_forest
+#3DE minecraft:deep_ocean
+#498 minecraft:lush_caves
+#2D6 minecraft:meadow
+#4F1 minecraft:ocean
+#1DF minecraft:old_growth_birch_forest
+#3DC minecraft:plains
+#28B biomesoplenty:pumpkin_patch
+#5FF minecraft:river
+#108 biomesoplenty:seasonal_forest
+#4E5 minecraft:snowy_plains
+#240 biomesoplenty:tundra
