@@ -79,12 +79,12 @@
 	leafcutterAntRepopulateFeedings = 25
 	#Max number of ant entities allowed inside a leafcutter anthill.
 	#Range: 2 ~ 100000
-	leafcutterAntColonySize = 20
+	leafcutterAntColonySize = 10
 	#Percent chance for leafcutter ants to break leaves blocks when harvesting. Set to zero so that they can not break any blocks.
 	#Range: 0.0 ~ 1.0
 	leafcutterAntBreakLeavesChance = 0.2
 	#Makes eagles teleport back to their owner if they get stuck during controlled flight. Useful for when playing with the Optifine mod, since this mod is the fault of many issues with the falconry system.
-	falconryTeleportsBack = true
+	falconryTeleportsBack = false
 	#Makes Tarantula Hawks fireproof, perfect if you also want these guys to spawn in the nether.
 	fireproofTarantulaHawk = false
 	#List of dimensions in which spawning void worms via mysterious worm items is allowed.
@@ -555,7 +555,7 @@
 		flyingFishSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		skelewagSpawnWeight = 25
+		skelewagSpawnWeight = 15
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		skelewagSpawnRolls = 0

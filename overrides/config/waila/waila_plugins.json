@@ -1,4 +1,15 @@
 {
+  "waila": {
+    "show_blocks": true,
+    "show_fluids": false,
+    "show_entities": true,
+    "show_icon": true,
+    "show_mod_name": true,
+    "show_registry": false,
+    "show_entity_hp": true,
+    "show_states": false,
+    "show_pos": false
+  },
   "minecraft": {
     "item_entity": true,
     "override.infested": true,
@@ -7,6 +18,9 @@
     "pet.owner": true,
     "furnace_contents": true,
     "jukebox.record": true,
+    "breaking_progress.enabled": true,
+    "breaking_progress.color": -1426063361,
+    "breaking_progress.bottom_only": false,
     "spawner_type": true,
     "crop_progress": true,
     "redstone.lever": true,
@@ -20,16 +34,5 @@
     "note_block.note": "SHARP",
     "note_block.int_value": false,
     "pet.hide_unknown_owner": false
-  },
-  "waila": {
-    "show_blocks": true,
-    "show_fluids": false,
-    "show_entities": true,
-    "show_icon": true,
-    "show_mod_name": true,
-    "show_registry": false,
-    "show_entity_hp": true,
-    "show_states": false,
-    "show_pos": false
   }
 }
