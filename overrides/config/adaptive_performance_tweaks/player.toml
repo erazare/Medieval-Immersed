@@ -18,4 +18,14 @@
 	enableChildPlayerProtection = true
 	#List of child player username for the child player protection.
 	childPlayerProtectionList = [""]
+	#Sets the child player to invisible.
+	childPlayerInvisible = true
+	#Sets the child player to invulnerable.
+	childPlayerInvulnerable = false
+	#Reduces the hurt damage to a child player by the amount of % (0 = disabled).
+	#Range: 0 ~ 100
+	childPlayerHurtDamageReduction = 50
+	#Increase the attack damage of a child player by the amount of % (0 = disabled).
+	#Range: 0 ~ 1000
+	childPlayerAttackDamageIncrease = 50
 
