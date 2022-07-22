@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "forge-40.1.60",
+        "id": "forge-40.1.68",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Medieval Immersed",
-  "version": "Release v.3.3.2",
+  "version": "Release v.3.3.3",
   "author": "",
   "files": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "projectID": 602680,
-      "fileID": 3882391,
+      "fileID": 3891589,
       "required": true
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "projectID": 535291,
-      "fileID": 3874395,
+      "fileID": 3891420,
       "required": true
     },
     {
@@ -62,11 +62,6 @@
     {
       "projectID": 435044,
       "fileID": 3834420,
-      "required": true
-    },
-    {
-      "projectID": 470136,
-      "fileID": 3548174,
       "required": true
     },
     {
@@ -121,7 +116,7 @@
     },
     {
       "projectID": 367706,
-      "fileID": 3876120,
+      "fileID": 3891585,
       "required": true
     },
     {
@@ -141,7 +136,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 3876559,
+      "fileID": 3892203,
       "required": true
     },
     {
@@ -201,7 +196,7 @@
     },
     {
       "projectID": 405076,
-      "fileID": 3857786,
+      "fileID": 3882283,
       "required": true
     },
     {
@@ -221,7 +216,7 @@
     },
     {
       "projectID": 228525,
-      "fileID": 3832270,
+      "fileID": 3891368,
       "required": true
     },
     {
@@ -335,11 +330,6 @@
       "required": true
     },
     {
-      "projectID": 513222,
-      "fileID": 3836922,
-      "required": true
-    },
-    {
       "projectID": 317716,
       "fileID": 3601975,
       "required": true
@@ -382,11 +372,6 @@
     {
       "projectID": 561137,
       "fileID": 3856594,
-      "required": true
-    },
-    {
-      "projectID": 353935,
-      "fileID": 3809102,
       "required": true
     },
     {
@@ -456,7 +441,7 @@
     },
     {
       "projectID": 321117,
-      "fileID": 3870826,
+      "fileID": 3892168,
       "required": true
     },
     {
@@ -536,7 +521,7 @@
     },
     {
       "projectID": 410295,
-      "fileID": 3593196,
+      "fileID": 3888156,
       "required": true
     },
     {
@@ -596,7 +581,7 @@
     },
     {
       "projectID": 484967,
-      "fileID": 3884124,
+      "fileID": 3885241,
       "required": true
     },
     {
