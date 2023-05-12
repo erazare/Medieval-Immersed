@@ -97,6 +97,7 @@ mode = "fancy"
 				blaze = true
 				small_fireball = true
 				wandering_trader = true
+				warden = true
 
 			[light_sources.settings.entities.graveyard]
 				ghoul = true
@@ -122,6 +123,7 @@ mode = "fancy"
 				executioner = true
 				soul_stealer = true
 				corsair = true
+				infected_piglin_brute = true
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
@@ -132,6 +134,7 @@ mode = "fancy"
 			[light_sources.settings.entities.soulsweapons]
 				big_chungus = true
 				withered_demon = true
+				accursed_lord_boss = true
 
 			[light_sources.settings.entities.vinery]
 				mule = true

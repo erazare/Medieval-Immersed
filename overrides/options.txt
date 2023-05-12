@@ -187,6 +187,7 @@ key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
+key_panorama.keybinds.screenshot:key.keyboard.f4
 key_key.pickablevillagers.pickup:key.keyboard.period
 key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.puffish_skills.open:key.keyboard.keypad.6
