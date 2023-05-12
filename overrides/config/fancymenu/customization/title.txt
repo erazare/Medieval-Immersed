@@ -9,6 +9,11 @@ customization-meta {
 }
 
 customization {
+  name = Title
+  action = setbackgroundpanorama
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
