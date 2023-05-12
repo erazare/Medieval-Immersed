@@ -1,11 +1,15 @@
 # Medieval-Immersed
-Medieval Immersed Modpack for MineCraft 1.18.2 - FORGE 40.1.68 - Release Version 3.3.5
 
-The public repo consists of the latest Release branch client for CurseForge pay attention to Version No.s as Curseforge of Github may update before the other.
-this project is covered under All Rights Reserved license, however none of the mods were made by me nor are they individually supported here. Any and all alterations that have been made in the development will be addressed when possible by development. This modpack has been designed to go along with a server build of its own. ** ANY ** alterations to the code, addition/removal of anything included nullifies ANY support from development. you change ANYTHING about its structure or design except configurations and we will absolutely REFUSE to help you whatsoever.
+ 1.19.4 - Fabric 0.14.19 [ACTIVE]
+[ Paypal - 3razar3@gmail.com / Cashapp : $Keef_DGAF ]
+DISCORD COMMUNITY : https://discord.gg/avuMArx9kr
+ 
 
+In Medieval Immersed the player is not given a purpose in the world, while there are datapacks that provide some questing, the world pressures the player to find their purpose and then strive to achieve it. You could be a simple farmhand in a small community and experience all the burdens such a life has to offer, or you could aspire to leader, king, ...god! Everything is up to you, once you arrive in the world you will be given a set of books that detail everything you NEED to know to survive, everything else is part of the immersion, find out what the mods are, find out what you can do in them and what you can achieve.. LEARN, just like your character.. THAT is immersion at its finest. 
+ 
 
-Server software [ Server Version Release v.3.3.5 ] will always be located here : [[ To Medieval Immersed -Server- ]](https://www.curseforge.com/minecraft/modpacks/medieval-immersed/files/3901200)
+Due to issues between developers and curseforge, certain mods have been moved off of curseforge that are required for this modpack to function. As such this alternative was decided upon as the solution. this repo will be the main source for all future client packages.
+
 
 @Keef_DGAF
 

@@ -1,0 +1,148 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				axolotl = true
+				bee = true
+				cow = true
+				chest_minecart = true
+				tropical_fish = true
+				pig = true
+				skeleton = true
+				iron_golem = true
+				bat = true
+				zombie = true
+				armor_stand = true
+				drowned = true
+				sheep = true
+				player = true
+				pufferfish = true
+				dolphin = true
+				item = true
+				turtle = true
+				wolf = true
+				vex = true
+				salmon = true
+				zombie_villager = true
+				goat = true
+				ocelot = true
+				horse = true
+				glow_squid = true
+				cod = true
+				witch = true
+				glow_item_frame = false
+				squid = true
+				spider = true
+				parrot = true
+				creeper = true
+				enderman = true
+				villager = true
+				cat = true
+				pillager = true
+				tnt_minecart = true
+				minecart = true
+				polar_bear = true
+				cave_spider = true
+				guardian = true
+				elder_guardian = true
+				zombie_horse = true
+				silverfish = true
+				fox = true
+				panda = true
+				arrow = true
+				experience_orb = true
+				item_frame = true
+				painting = true
+				firework_rocket = true
+				slime = true
+				vindicator = true
+				allay = true
+				illusioner = true
+				evoker = true
+				donkey = true
+				skeleton_horse = true
+				rabbit = true
+				potion = true
+				ravager = true
+				piglin = true
+				strider = true
+				zombified_piglin = true
+				piglin_brute = true
+				magma_cube = true
+				wither_skeleton = true
+				hoglin = true
+				ghast = true
+				spectral_arrow = true
+				blaze = true
+				small_fireball = true
+				wandering_trader = true
+
+			[light_sources.settings.entities.graveyard]
+				ghoul = true
+				skeleton_creeper = true
+				revenant = true
+				corrupted_vindicator = true
+				acolyte = true
+				corrupted_pillager = true
+				nightmare = true
+				nameless_hanged = true
+
+			[light_sources.settings.entities.direbats]
+				direbat = true
+
+			[light_sources.settings.entities.frycmobvariants]
+				forgotten = true
+				undead_warrior = true
+				armored_spider = true
+				cave_creeper = true
+				explorer = true
+				tropical_spider = true
+				infected_piglin = true
+				executioner = true
+				soul_stealer = true
+				corsair = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
+
+			[light_sources.settings.entities.regions_unexplored]
+				boat = true
+
+			[light_sources.settings.entities.soulsweapons]
+				big_chungus = true
+				withered_demon = true
+
+			[light_sources.settings.entities.vinery]
+				mule = true
+				wandering_winemaker = true
+
+			[light_sources.settings.entities.uselessreptile]
+				wyvern = true
+
+			[light_sources.settings.entities.mca]
+				male_villager = true
+				female_villager = true
+				female_zombie_villager = true
+				male_zombie_villager = true
+

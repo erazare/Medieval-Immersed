@@ -1,0 +1,84 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    {
+      "item": "minecraft:nether_star",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:player_head",
+      "amount": 1,
+      "nbt": "{HideFlags:127,\"Polymer$itemId\":\"goml:ender_binding\",SkullOwner:{Id:[I;0,0,0,0],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYzODY5NTUzNzg0NywKICAicHJvZmlsZUlkIiA6ICIzOWEzOTMzZWE4MjU0OGU3ODQwNzQ1YzBjNGY3MjU2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZW1pbmVjcmFmdGVybG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U0MmEzMWMxNGNmZjFhY2ViMDU0MjY5OTAwNzE5MDU1ZjNlMDM0MmFhYWNlODg0YmMzZTc0OTdiNTU3YThlZjUiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"color\":\"gray\",\"translate\":\"block.goml.ender_binding.description.1\",\"fallback\":\"Prevents any Endermen from\"}],\"text\":\"\"}\u0027,\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"color\":\"gray\",\"translate\":\"block.goml.ender_binding.description.2\",\"fallback\":\"teleporting while inside a claim.\"}],\"text\":\"\"}\u0027],Name:\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"translate\":\"block.goml.anchor_augment\",\"fallback\":\"Anchor Augment: %s\",\"with\":[{\"translate\":\"block.goml.ender_binding\",\"fallback\":\"Ender Binding\"}]}],\"text\":\"\"}\u0027}}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:obsidian",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "expandedstorage:gold_to_diamond_conversion_kit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "amount": 11,
+      "type": "emi:item"
+    },
+    {
+      "item": "expandedstorage:wood_to_diamond_conversion_kit",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "expandedstorage:wood_to_gold_conversion_kit",
+      "amount": 10,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:gilded_blackstone",
+      "amount": 9,
+      "type": "emi:item"
+    },
+    {
+      "item": "regions_unexplored:blue_painted_planks",
+      "amount": 1,
+      "type": "emi:item"
+    }
+  ],
+  "craft_history": [
+    "minecraft:iron_leggings",
+    "minecraft:iron_boots",
+    "minecraft:iron_ingot_from_nuggets",
+    "goml:makeshift_claim_anchor",
+    "expandedstorage:wood_to_gold_conversion_kit",
+    "minecraft:gold_ingot_from_gold_block",
+    "minecraft:anvil",
+    "minecraft:iron_block",
+    "minecraft:blast_furnace",
+    "minecraft:furnace",
+    "minecraft:dark_oak_stairs",
+    "minecraft:dark_oak_planks",
+    "minecraft:iron_pickaxe",
+    "minecraft:diamond_pickaxe",
+    "expandedstorage:wood_to_iron_conversion_kit",
+    "minecraft:iron_nugget",
+    "expandedstorage:wood_to_copper_conversion_kit",
+    "minecraft:torch",
+    "minecraft:iron_axe",
+    "minecraft:coal_block",
+    "minecraft:chest",
+    "regions_unexplored:pine_planks",
+    "regions_unexplored:pine_boat",
+    "minecraft:crafting_table",
+    "minecraft:iron_sword",
+    "comforts:sleeping_bag_white",
+    "minecraft:jungle_planks"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "disabled": []
+  }
+}
