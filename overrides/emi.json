@@ -2,6 +2,11 @@
   "favorites": [],
   "lookup_history": [
     {
+      "item": "minecraft:fletching_table",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
       "item": "minecraft:nether_star",
       "amount": 1,
       "type": "emi:item"
@@ -49,6 +54,12 @@
     }
   ],
   "craft_history": [
+    "minecraft:diamond_helmet",
+    "minecraft:arrow",
+    "minecraft:fletching_table",
+    "minecraft:oak_planks",
+    "minecraft:stick",
+    "minecraft:iron_shovel",
     "minecraft:iron_leggings",
     "minecraft:iron_boots",
     "minecraft:iron_ingot_from_nuggets",

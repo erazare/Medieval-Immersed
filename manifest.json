@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Medieval Immersed",
-  "version": "v.2.0.3",
+  "version": "2.0.4",
   "author": "keef_dgaf",
   "files": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "projectID": 324717,
-      "fileID": 4438356,
+      "fileID": 4534703,
       "required": true
     },
     {
@@ -711,7 +711,7 @@
     },
     {
       "projectID": 639842,
-      "fileID": 4522448,
+      "fileID": 4534648,
       "required": true
     },
     {
@@ -811,7 +811,7 @@
     },
     {
       "projectID": 835091,
-      "fileID": 4510957,
+      "fileID": 4534767,
       "required": true
     },
     {

@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["waveapi","vanilla","fabric","file/FreshAnimations_v1.8.1.zip","file/Misa_1.19y.zip","file/Cute Mob Model Sounds.zip","file/Improved Hostiles.zip","file/cozy-critters-1-19-4.zip","file/MCAR_VanillaMedieval_Universal_1.19.x_byDE4THR4SH_v1.zip","file/Fantasy_Ores_v7.1[classic].zip","resources/Repurposed_Structures-Bountiful_v2.zip","file/spell-magic-v1-0-0-rp.zip","resources/Survival_Expansion_Textures.zip","resources/essence-rpg-resources-v1-17.zip","resources/Hexenwerk Resources.zip","file/Gothic RPG Font.zip","file/DiscreetGUI V1.4.zip"]
+resourcePacks:["waveapi","vanilla","fabric","file/FreshAnimations_v1.8.1.zip","file/Misa_1.19y.zip","file/Cute Mob Model Sounds.zip","file/MCAVoices-1.0.0.zip","file/Improved Hostiles.zip","file/cozy-critters-1-19-4.zip","file/MCAR_VanillaMedieval_Universal_1.19.x_byDE4THR4SH_v1.zip","file/Fantasy_Ores_v7.1[classic].zip","resources/Repurposed_Structures-Bountiful_v2.zip","file/spell-magic-v1-0-0-rp.zip","resources/Survival_Expansion_Textures.zip","resources/essence-rpg-resources-v1-17.zip","resources/Hexenwerk Resources.zip","file/Gothic RPG Font.zip","file/DiscreetGUI V1.4.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -187,7 +187,6 @@ key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
-key_panorama.keybinds.screenshot:key.keyboard.f4
 key_key.pickablevillagers.pickup:key.keyboard.period
 key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.puffish_skills.open:key.keyboard.keypad.6
