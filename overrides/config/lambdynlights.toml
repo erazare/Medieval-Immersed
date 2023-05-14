@@ -98,6 +98,9 @@ mode = "fancy"
 				small_fireball = true
 				wandering_trader = true
 				warden = true
+				trident = true
+				area_effect_cloud = true
+				llama = true
 
 			[light_sources.settings.entities.graveyard]
 				ghoul = true
@@ -142,6 +145,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.uselessreptile]
 				wyvern = true
+				wyvern_projectile = true
 
 			[light_sources.settings.entities.mca]
 				male_villager = true

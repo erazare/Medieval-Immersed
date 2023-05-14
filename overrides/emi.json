@@ -2,6 +2,106 @@
   "favorites": [],
   "lookup_history": [
     {
+      "item": "archers_arsenal:bow_gold",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "sassot:diamond_spear",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "sassot:netherite_spear",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "sassot:bamboo_spear",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "sassot:wooden_spear",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "sassot:blazearm",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:tipped_arrow",
+      "amount": 1,
+      "nbt": "{Potion:\"minecraft:water_breathing\"}",
+      "type": "emi:item"
+    },
+    {
+      "item": "xtraarrows:diamond_tracking_arrow",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:diamond_hoe",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "sassot:diamond_shield",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:crafting_table",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "toms_storage:ts.crafting_terminal",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:tipped_arrow",
+      "amount": 1,
+      "nbt": "{Potion:\"minecraft:strong_leaping\"}",
+      "type": "emi:item"
+    },
+    {
+      "item": "xtraarrows:golden_lightning_arrow",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "xtraarrows:diamond_redstone_torch_arrow",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:iron_bars",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:warped_button",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "vinery:loam_stairs",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
       "item": "minecraft:fletching_table",
       "amount": 1,
       "type": "emi:item"
@@ -54,20 +154,25 @@
     }
   ],
   "craft_history": [
+    "minecraft:anvil",
+    "minecraft:iron_block",
+    "regions_unexplored:pine_slab",
+    "regions_unexplored:pine_planks",
+    "mca:blueprint",
+    "minecraft:blue_dye",
+    "xtraarrows:iron_arrow2",
+    "minecraft:iron_axe",
+    "minecraft:stick",
     "minecraft:diamond_helmet",
     "minecraft:arrow",
     "minecraft:fletching_table",
     "minecraft:oak_planks",
-    "minecraft:stick",
     "minecraft:iron_shovel",
     "minecraft:iron_leggings",
     "minecraft:iron_boots",
     "minecraft:iron_ingot_from_nuggets",
-    "goml:makeshift_claim_anchor",
     "expandedstorage:wood_to_gold_conversion_kit",
     "minecraft:gold_ingot_from_gold_block",
-    "minecraft:anvil",
-    "minecraft:iron_block",
     "minecraft:blast_furnace",
     "minecraft:furnace",
     "minecraft:dark_oak_stairs",
@@ -78,10 +183,8 @@
     "minecraft:iron_nugget",
     "expandedstorage:wood_to_copper_conversion_kit",
     "minecraft:torch",
-    "minecraft:iron_axe",
     "minecraft:coal_block",
     "minecraft:chest",
-    "regions_unexplored:pine_planks",
     "regions_unexplored:pine_boat",
     "minecraft:crafting_table",
     "minecraft:iron_sword",
