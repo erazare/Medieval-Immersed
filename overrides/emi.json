@@ -2,6 +2,51 @@
   "favorites": [],
   "lookup_history": [
     {
+      "item": "minecraft:tinted_glass",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:furnace",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:jukebox",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:nether_bricks",
+      "amount": 4,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:nether_brick",
+      "amount": 16,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:hopper",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:nether_wart",
+      "amount": 17,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:nether_star",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:glass",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
       "item": "archers_arsenal:bow_gold",
       "amount": 1,
       "nbt": "{Damage:0}",
@@ -107,11 +152,6 @@
       "type": "emi:item"
     },
     {
-      "item": "minecraft:nether_star",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
       "item": "minecraft:player_head",
       "amount": 1,
       "nbt": "{HideFlags:127,\"Polymer$itemId\":\"goml:ender_binding\",SkullOwner:{Id:[I;0,0,0,0],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYzODY5NTUzNzg0NywKICAicHJvZmlsZUlkIiA6ICIzOWEzOTMzZWE4MjU0OGU3ODQwNzQ1YzBjNGY3MjU2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZW1pbmVjcmFmdGVybG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U0MmEzMWMxNGNmZjFhY2ViMDU0MjY5OTAwNzE5MDU1ZjNlMDM0MmFhYWNlODg0YmMzZTc0OTdiNTU3YThlZjUiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"color\":\"gray\",\"translate\":\"block.goml.ender_binding.description.1\",\"fallback\":\"Prevents any Endermen from\"}],\"text\":\"\"}\u0027,\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"color\":\"gray\",\"translate\":\"block.goml.ender_binding.description.2\",\"fallback\":\"teleporting while inside a claim.\"}],\"text\":\"\"}\u0027],Name:\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"translate\":\"block.goml.anchor_augment\",\"fallback\":\"Anchor Augment: %s\",\"with\":[{\"translate\":\"block.goml.ender_binding\",\"fallback\":\"Ender Binding\"}]}],\"text\":\"\"}\u0027}}",
@@ -154,10 +194,33 @@
     }
   ],
   "craft_history": [
-    "minecraft:anvil",
-    "minecraft:iron_block",
+    "minecraft:blaze_powder",
+    "minecraft:tinted_glass",
+    "minecraft:bucket",
+    "minecraft:smoker",
+    "minecraft:furnace",
+    "minecraft:jukebox",
+    "minecraft:acacia_planks",
     "regions_unexplored:pine_slab",
     "regions_unexplored:pine_planks",
+    "regions_unexplored:pine_door",
+    "minecraft:oak_planks",
+    "minecraft:lectern",
+    "minecraft:bookshelf",
+    "minecraft:chest",
+    "minecraft:spruce_planks",
+    "regions_unexplored:pine_fence",
+    "minecraft:polished_blackstone_brick_slab",
+    "minecraft:polished_blackstone_brick_wall",
+    "minecraft:nether_brick_wall",
+    "minecraft:nether_bricks",
+    "minecraft:coal_block",
+    "minecraft:nether_brick_slab",
+    "minecraft:hopper",
+    "minecraft:red_nether_bricks",
+    "minecraft:copper_block",
+    "minecraft:anvil",
+    "minecraft:iron_block",
     "mca:blueprint",
     "minecraft:blue_dye",
     "xtraarrows:iron_arrow2",
@@ -166,7 +229,6 @@
     "minecraft:diamond_helmet",
     "minecraft:arrow",
     "minecraft:fletching_table",
-    "minecraft:oak_planks",
     "minecraft:iron_shovel",
     "minecraft:iron_leggings",
     "minecraft:iron_boots",
@@ -174,7 +236,6 @@
     "expandedstorage:wood_to_gold_conversion_kit",
     "minecraft:gold_ingot_from_gold_block",
     "minecraft:blast_furnace",
-    "minecraft:furnace",
     "minecraft:dark_oak_stairs",
     "minecraft:dark_oak_planks",
     "minecraft:iron_pickaxe",
@@ -183,8 +244,6 @@
     "minecraft:iron_nugget",
     "expandedstorage:wood_to_copper_conversion_kit",
     "minecraft:torch",
-    "minecraft:coal_block",
-    "minecraft:chest",
     "regions_unexplored:pine_boat",
     "minecraft:crafting_table",
     "minecraft:iron_sword",
