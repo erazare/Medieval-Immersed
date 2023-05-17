@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["waveapi","vanilla","fabric","file/FreshAnimations_v1.8.1.zip","file/Misa_1.19y.zip","file/Cute Mob Model Sounds.zip","file/MCAVoices-1.0.0.zip","file/Improved Hostiles.zip","file/cozy-critters-1-19-4.zip","file/MCAR_VanillaMedieval_Universal_1.19.x_byDE4THR4SH_v1.zip","file/Fantasy_Ores_v7.1[classic].zip","resources/Repurposed_Structures-Bountiful_v2.zip","file/spell-magic-v1-0-0-rp.zip","resources/Survival_Expansion_Textures.zip","resources/essence-rpg-resources-v1-17.zip","resources/Hexenwerk Resources.zip","file/Gothic RPG Font.zip","file/DiscreetGUI V1.4.zip"]
+resourcePacks:["waveapi","vanilla","fabric","file/FreshAnimations_v1.8.1.zip","file/Misa_1.19y.zip","minecraft:supporteatinganimation","file/Cute Mob Model Sounds.zip","file/MCAVoices-1.0.0.zip","file/Improved Hostiles.zip","file/cozy-critters-1-19-4.zip","file/MCAR_VanillaMedieval_Universal_1.19.x_byDE4THR4SH_v1.zip","file/Fantasy_Ores_v7.1[classic].zip","resources/Repurposed_Structures-Bountiful_v2.zip","file/spell-magic-v1-0-0-rp.zip","resources/Survival_Expansion_Textures.zip","resources/essence-rpg-resources-v1-17.zip","resources/Hexenwerk Resources.zip","file/Gothic RPG Font.zip","file/DiscreetGUI V1.4.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -132,6 +132,14 @@ key_key.advancedcompass.hidemobs:key.keyboard.unknown
 key_key.advancedcompass.showmobs:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
+key_mod.chiselsandbits.keys.key.modded-tool.open:key.keyboard.r
+key_mod.chiselsandbits.keys.key.modded-tool.cycle.left:key.keyboard.unknown
+key_mod.chiselsandbits.keys.key.modded-tool.cycle.right:key.keyboard.unknown
+key_mod.chiselsandbits.keys.key.measuring-tape.reset:key.keyboard.r
+key_mod.chiselsandbits.keys.key.undo:key.keyboard.z
+key_mod.chiselsandbits.keys.key.redo:key.keyboard.y
+key_mod.chiselsandbits.keys.key.zoom:key.keyboard.z
+key_mod.chiselsandbits.keys.reset-caches:key.keyboard.c
 key_key.craftingtweaks.rotate:key.keyboard.unknown
 key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown
 key_key.craftingtweaks.balance:key.keyboard.unknown

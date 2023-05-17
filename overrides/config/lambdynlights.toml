@@ -103,6 +103,7 @@ mode = "fancy"
 				llama = true
 				leash_knot = true
 				lightning_bolt = true
+				stray = true
 
 			[light_sources.settings.entities.graveyard]
 				ghoul = true
@@ -159,4 +160,5 @@ mode = "fancy"
 
 			[light_sources.settings.entities.sassot]
 				golden_spear = true
+				copper_spear = true
 

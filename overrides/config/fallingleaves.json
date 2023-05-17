@@ -287,6 +287,14 @@
     "croptopia:peach_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "regions_unexplored:ashen_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "regions_unexplored:brimwood_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   },
   "leafSpawners": [],
