@@ -2,6 +2,62 @@
   "favorites": [],
   "lookup_history": [
     {
+      "item": "minecraft:diamond_chestplate",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "expandedstorage:wood_to_obsidian_conversion_kit",
+      "amount": 4,
+      "type": "emi:item"
+    },
+    {
+      "item": "expandedstorage:wood_to_diamond_conversion_kit",
+      "amount": 6,
+      "type": "emi:item"
+    },
+    {
+      "item": "dark-enchanting:dark_enchanter",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:enchanting_table",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "direbats:direbat_fang",
+      "amount": 4,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "amount": 32,
+      "type": "emi:item"
+    },
+    {
+      "item": "regions_unexplored:redstone_bulb",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:stripped_crimson_hyphae",
+      "amount": 3,
+      "type": "emi:item"
+    },
+    {
+      "item": "soulsweapons:soul_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "soulsweapons:lord_soul_purple",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
       "item": "minecraft:tinted_glass",
       "amount": 1,
       "type": "emi:item"
@@ -173,11 +229,6 @@
       "type": "emi:item"
     },
     {
-      "item": "expandedstorage:wood_to_diamond_conversion_kit",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
       "item": "expandedstorage:wood_to_gold_conversion_kit",
       "amount": 10,
       "type": "emi:item"
@@ -194,60 +245,85 @@
     }
   ],
   "craft_history": [
+    "sassot:copper_axe",
+    "sassot:copper_pickaxe",
+    "minecraft:coal_block",
+    "minecraft:blast_furnace",
+    "minecraft:smithing_table",
+    "minecraft:anvil",
+    "minecraft:iron_block",
+    "expandedstorage:wood_to_obsidian_conversion_kit",
+    "expandedstorage:wood_to_diamond_conversion_kit",
+    "expandedstorage:wood_to_gold_conversion_kit",
+    "expandedstorage:wood_to_iron_conversion_kit",
+    "minecraft:iron_nugget",
+    "expandedstorage:wood_to_copper_conversion_kit",
+    "minecraft:bookshelf",
+    "minecraft:crafting_table",
+    "minecraft:oak_planks",
+    "minecraft:birch_planks",
+    "minecraft:nether_bricks",
+    "minecraft:quartz_block",
+    "minecraft:arrow",
+    "minecraft:stick",
+    "minecraft:diamond_pickaxe",
+    "minecraft:iron_pickaxe",
+    "dark-enchanting:dark_enchanter",
+    "minecraft:enchanting_table",
+    "2re:bed",
+    "minecraft:oak_fence_gate",
+    "minecraft:oak_button",
+    "minecraft:cobbled_deepslate_slab",
+    "minecraft:torch",
+    "minecraft:iron_helmet",
+    "minecraft:iron_leggings",
+    "minecraft:iron_chestplate",
+    "minecraft:coal",
+    "minecraft:furnace",
+    "minecraft:iron_sword",
+    "minecraft:birch_fence_gate",
+    "minecraft:birch_fence",
+    "minecraft:stone_axe",
+    "minecraft:chest",
+    "minecraft:ladder",
+    "minecraft:wooden_axe",
+    "minecraft:spruce_planks",
+    "comforts:sleeping_bag_white",
+    "minecraft:stone_sword",
+    "minecraft:stone_pickaxe",
+    "minecraft:wooden_pickaxe",
+    "minecraft:spruce_boat",
     "minecraft:blaze_powder",
     "minecraft:tinted_glass",
     "minecraft:bucket",
     "minecraft:smoker",
-    "minecraft:furnace",
     "minecraft:jukebox",
     "minecraft:acacia_planks",
     "regions_unexplored:pine_slab",
     "regions_unexplored:pine_planks",
     "regions_unexplored:pine_door",
-    "minecraft:oak_planks",
     "minecraft:lectern",
-    "minecraft:bookshelf",
-    "minecraft:chest",
-    "minecraft:spruce_planks",
     "regions_unexplored:pine_fence",
     "minecraft:polished_blackstone_brick_slab",
     "minecraft:polished_blackstone_brick_wall",
     "minecraft:nether_brick_wall",
-    "minecraft:nether_bricks",
-    "minecraft:coal_block",
     "minecraft:nether_brick_slab",
     "minecraft:hopper",
     "minecraft:red_nether_bricks",
     "minecraft:copper_block",
-    "minecraft:anvil",
-    "minecraft:iron_block",
     "mca:blueprint",
     "minecraft:blue_dye",
     "xtraarrows:iron_arrow2",
     "minecraft:iron_axe",
-    "minecraft:stick",
     "minecraft:diamond_helmet",
-    "minecraft:arrow",
     "minecraft:fletching_table",
     "minecraft:iron_shovel",
-    "minecraft:iron_leggings",
     "minecraft:iron_boots",
     "minecraft:iron_ingot_from_nuggets",
-    "expandedstorage:wood_to_gold_conversion_kit",
     "minecraft:gold_ingot_from_gold_block",
-    "minecraft:blast_furnace",
     "minecraft:dark_oak_stairs",
     "minecraft:dark_oak_planks",
-    "minecraft:iron_pickaxe",
-    "minecraft:diamond_pickaxe",
-    "expandedstorage:wood_to_iron_conversion_kit",
-    "minecraft:iron_nugget",
-    "expandedstorage:wood_to_copper_conversion_kit",
-    "minecraft:torch",
     "regions_unexplored:pine_boat",
-    "minecraft:crafting_table",
-    "minecraft:iron_sword",
-    "comforts:sleeping_bag_white",
     "minecraft:jungle_planks"
   ],
   "recipe_defaults": {

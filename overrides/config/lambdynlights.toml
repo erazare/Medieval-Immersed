@@ -104,6 +104,9 @@ mode = "fancy"
 				leash_knot = true
 				lightning_bolt = true
 				stray = true
+				boat = true
+				husk = true
+				evoker_fangs = true
 
 			[light_sources.settings.entities.graveyard]
 				ghoul = true
@@ -151,6 +154,7 @@ mode = "fancy"
 			[light_sources.settings.entities.uselessreptile]
 				wyvern = true
 				wyvern_projectile = true
+				moleclaw = true
 
 			[light_sources.settings.entities.mca]
 				male_villager = true
@@ -161,4 +165,5 @@ mode = "fancy"
 			[light_sources.settings.entities.sassot]
 				golden_spear = true
 				copper_spear = true
+				stone_spear = true
 
