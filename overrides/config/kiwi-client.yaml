@@ -5,6 +5,6 @@ globalTooltip: false
 noMicrosoftTelemetry: true
 debug:
   tagsTooltip: true
-  debugTooltipMsg: true
+  debugTooltipMsg: false
   NBTTooltip: true
 suppressExperimentalSettingsWarning: false

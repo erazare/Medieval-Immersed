@@ -2,330 +2,43 @@
   "favorites": [],
   "lookup_history": [
     {
-      "item": "minecraft:diamond_chestplate",
+      "item": "progressivearchery:netherite_fused_bow",
       "amount": 1,
       "nbt": "{Damage:0}",
       "type": "emi:item"
     },
     {
-      "item": "expandedstorage:wood_to_obsidian_conversion_kit",
-      "amount": 4,
-      "type": "emi:item"
-    },
-    {
-      "item": "expandedstorage:wood_to_diamond_conversion_kit",
-      "amount": 6,
-      "type": "emi:item"
-    },
-    {
-      "item": "dark-enchanting:dark_enchanter",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:enchanting_table",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "direbats:direbat_fang",
-      "amount": 4,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:gold_nugget",
-      "amount": 32,
-      "type": "emi:item"
-    },
-    {
-      "item": "regions_unexplored:redstone_bulb",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:stripped_crimson_hyphae",
-      "amount": 3,
-      "type": "emi:item"
-    },
-    {
-      "item": "soulsweapons:soul_ingot",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "soulsweapons:lord_soul_purple",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:tinted_glass",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:furnace",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:jukebox",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:nether_bricks",
-      "amount": 4,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:nether_brick",
-      "amount": 16,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:hopper",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:nether_wart",
-      "amount": 17,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:nether_star",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:glass",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "archers_arsenal:bow_gold",
+      "item": "progressivearchery:wooden_horn_bow",
       "amount": 1,
       "nbt": "{Damage:0}",
       "type": "emi:item"
     },
     {
-      "item": "sassot:diamond_spear",
+      "item": "progressivearchery:copper_fused_horn_bow",
       "amount": 1,
       "nbt": "{Damage:0}",
       "type": "emi:item"
     },
     {
-      "item": "sassot:netherite_spear",
+      "item": "progressivearchery:gold_fused_horn_bow",
       "amount": 1,
       "nbt": "{Damage:0}",
       "type": "emi:item"
     },
     {
-      "item": "sassot:bamboo_spear",
+      "item": "progressivearchery:diamond_fused_horn_bow",
       "amount": 1,
       "nbt": "{Damage:0}",
       "type": "emi:item"
     },
     {
-      "item": "sassot:wooden_spear",
+      "item": "progressivearchery:diamond_fused_tubular_bow",
       "amount": 1,
       "nbt": "{Damage:0}",
-      "type": "emi:item"
-    },
-    {
-      "item": "sassot:blazearm",
-      "amount": 1,
-      "nbt": "{Damage:0}",
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:tipped_arrow",
-      "amount": 1,
-      "nbt": "{Potion:\"minecraft:water_breathing\"}",
-      "type": "emi:item"
-    },
-    {
-      "item": "xtraarrows:diamond_tracking_arrow",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:diamond_hoe",
-      "amount": 1,
-      "nbt": "{Damage:0}",
-      "type": "emi:item"
-    },
-    {
-      "item": "sassot:diamond_shield",
-      "amount": 1,
-      "nbt": "{Damage:0}",
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:crafting_table",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "toms_storage:ts.crafting_terminal",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:tipped_arrow",
-      "amount": 1,
-      "nbt": "{Potion:\"minecraft:strong_leaping\"}",
-      "type": "emi:item"
-    },
-    {
-      "item": "xtraarrows:golden_lightning_arrow",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "xtraarrows:diamond_redstone_torch_arrow",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:iron_bars",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:warped_button",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "vinery:loam_stairs",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:fletching_table",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:player_head",
-      "amount": 1,
-      "nbt": "{HideFlags:127,\"Polymer$itemId\":\"goml:ender_binding\",SkullOwner:{Id:[I;0,0,0,0],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYzODY5NTUzNzg0NywKICAicHJvZmlsZUlkIiA6ICIzOWEzOTMzZWE4MjU0OGU3ODQwNzQ1YzBjNGY3MjU2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZW1pbmVjcmFmdGVybG9sIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U0MmEzMWMxNGNmZjFhY2ViMDU0MjY5OTAwNzE5MDU1ZjNlMDM0MmFhYWNlODg0YmMzZTc0OTdiNTU3YThlZjUiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"color\":\"gray\",\"translate\":\"block.goml.ender_binding.description.1\",\"fallback\":\"Prevents any Endermen from\"}],\"text\":\"\"}\u0027,\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"color\":\"gray\",\"translate\":\"block.goml.ender_binding.description.2\",\"fallback\":\"teleporting while inside a claim.\"}],\"text\":\"\"}\u0027],Name:\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"translate\":\"block.goml.anchor_augment\",\"fallback\":\"Anchor Augment: %s\",\"with\":[{\"translate\":\"block.goml.ender_binding\",\"fallback\":\"Ender Binding\"}]}],\"text\":\"\"}\u0027}}",
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:obsidian",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "expandedstorage:gold_to_diamond_conversion_kit",
-      "amount": 1,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:copper_ingot",
-      "amount": 11,
-      "type": "emi:item"
-    },
-    {
-      "item": "expandedstorage:wood_to_gold_conversion_kit",
-      "amount": 10,
-      "type": "emi:item"
-    },
-    {
-      "item": "minecraft:gilded_blackstone",
-      "amount": 9,
-      "type": "emi:item"
-    },
-    {
-      "item": "regions_unexplored:blue_painted_planks",
-      "amount": 1,
       "type": "emi:item"
     }
   ],
-  "craft_history": [
-    "sassot:copper_axe",
-    "sassot:copper_pickaxe",
-    "minecraft:coal_block",
-    "minecraft:blast_furnace",
-    "minecraft:smithing_table",
-    "minecraft:anvil",
-    "minecraft:iron_block",
-    "expandedstorage:wood_to_obsidian_conversion_kit",
-    "expandedstorage:wood_to_diamond_conversion_kit",
-    "expandedstorage:wood_to_gold_conversion_kit",
-    "expandedstorage:wood_to_iron_conversion_kit",
-    "minecraft:iron_nugget",
-    "expandedstorage:wood_to_copper_conversion_kit",
-    "minecraft:bookshelf",
-    "minecraft:crafting_table",
-    "minecraft:oak_planks",
-    "minecraft:birch_planks",
-    "minecraft:nether_bricks",
-    "minecraft:quartz_block",
-    "minecraft:arrow",
-    "minecraft:stick",
-    "minecraft:diamond_pickaxe",
-    "minecraft:iron_pickaxe",
-    "dark-enchanting:dark_enchanter",
-    "minecraft:enchanting_table",
-    "2re:bed",
-    "minecraft:oak_fence_gate",
-    "minecraft:oak_button",
-    "minecraft:cobbled_deepslate_slab",
-    "minecraft:torch",
-    "minecraft:iron_helmet",
-    "minecraft:iron_leggings",
-    "minecraft:iron_chestplate",
-    "minecraft:coal",
-    "minecraft:furnace",
-    "minecraft:iron_sword",
-    "minecraft:birch_fence_gate",
-    "minecraft:birch_fence",
-    "minecraft:stone_axe",
-    "minecraft:chest",
-    "minecraft:ladder",
-    "minecraft:wooden_axe",
-    "minecraft:spruce_planks",
-    "comforts:sleeping_bag_white",
-    "minecraft:stone_sword",
-    "minecraft:stone_pickaxe",
-    "minecraft:wooden_pickaxe",
-    "minecraft:spruce_boat",
-    "minecraft:blaze_powder",
-    "minecraft:tinted_glass",
-    "minecraft:bucket",
-    "minecraft:smoker",
-    "minecraft:jukebox",
-    "minecraft:acacia_planks",
-    "regions_unexplored:pine_slab",
-    "regions_unexplored:pine_planks",
-    "regions_unexplored:pine_door",
-    "minecraft:lectern",
-    "regions_unexplored:pine_fence",
-    "minecraft:polished_blackstone_brick_slab",
-    "minecraft:polished_blackstone_brick_wall",
-    "minecraft:nether_brick_wall",
-    "minecraft:nether_brick_slab",
-    "minecraft:hopper",
-    "minecraft:red_nether_bricks",
-    "minecraft:copper_block",
-    "mca:blueprint",
-    "minecraft:blue_dye",
-    "xtraarrows:iron_arrow2",
-    "minecraft:iron_axe",
-    "minecraft:diamond_helmet",
-    "minecraft:fletching_table",
-    "minecraft:iron_shovel",
-    "minecraft:iron_boots",
-    "minecraft:iron_ingot_from_nuggets",
-    "minecraft:gold_ingot_from_gold_block",
-    "minecraft:dark_oak_stairs",
-    "minecraft:dark_oak_planks",
-    "regions_unexplored:pine_boat",
-    "minecraft:jungle_planks"
-  ],
+  "craft_history": [],
   "recipe_defaults": {
     "added": [],
     "disabled": []

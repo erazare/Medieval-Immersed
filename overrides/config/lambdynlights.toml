@@ -107,6 +107,8 @@ mode = "fancy"
 				boat = true
 				husk = true
 				evoker_fangs = true
+				phantom = true
+				trader_llama = true
 
 			[light_sources.settings.entities.graveyard]
 				ghoul = true
@@ -166,4 +168,12 @@ mode = "fancy"
 				golden_spear = true
 				copper_spear = true
 				stone_spear = true
+				flint_spear = true
+				wooden_spear = true
+
+			[light_sources.settings.entities.archers_arsenal]
+				villager_arrow = true
+
+			[light_sources.settings.entities.xtraarrows]
+				flint_torch_arrow = true
 
