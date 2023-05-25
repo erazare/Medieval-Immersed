@@ -2,6 +2,185 @@
   "favorites": [],
   "lookup_history": [
     {
+      "item": "minecraft:oak_wood",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:brewing_stand",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:flower_pot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "graveyard:sarcophagus",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "graveyard:dark_iron_ingot",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "mca:deepslate_upright_headstone",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "amount": 31,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:iron_trapdoor",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "villagersplus:alchemist_table",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:loom",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:barrel",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "vinery:grapevine_stem",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "progressivearchery:quiver",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "croptopia:fish_and_chips",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:jukebox",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:smoker",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:grindstone",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "progressivearchery:gold_fused_bow",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:bell",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:composter",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:arrow",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "progressivearchery:copper_arrowhead",
+      "amount": 9,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:tipped_arrow",
+      "amount": 1,
+      "nbt": "{Potion:\"minecraft:water_breathing\"}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:tipped_arrow",
+      "amount": 1,
+      "nbt": "{Potion:\"minecraft:strong_strength\"}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:tipped_arrow",
+      "amount": 1,
+      "nbt": "{Potion:\"minecraft:weakness\"}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:tipped_arrow",
+      "amount": 1,
+      "nbt": "{Potion:\"minecraft:night_vision\"}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:spectral_arrow",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:tipped_arrow",
+      "amount": 1,
+      "nbt": "{Potion:\"minecraft:swiftness\"}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:tipped_arrow",
+      "amount": 1,
+      "nbt": "{Potion:\"minecraft:strong_acid\"}",
+      "type": "emi:item"
+    },
+    {
+      "item": "minecraft:fletching_table",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "progressivearchery:copper_fused_bow",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "progressivearchery:horsehair",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
+      "item": "progressivearchery:wooden_bow",
+      "amount": 1,
+      "nbt": "{Damage:0}",
+      "type": "emi:item"
+    },
+    {
+      "item": "progressivearchery:archer_marker",
+      "amount": 1,
+      "type": "emi:item"
+    },
+    {
       "item": "progressivearchery:netherite_fused_bow",
       "amount": 1,
       "nbt": "{Damage:0}",
@@ -38,7 +217,71 @@
       "type": "emi:item"
     }
   ],
-  "craft_history": [],
+  "craft_history": [
+    "minecraft:chest",
+    "minecraft:oak_planks",
+    "minecraft:crafting_table",
+    "minecraft:diamond_sword",
+    "minecraft:stick",
+    "minecraft:brewing_stand",
+    "minecraft:flower_pot",
+    "minecraft:cauldron",
+    "minecraft:grindstone",
+    "minecraft:blast_furnace",
+    "minecraft:furnace",
+    "minecraft:anvil",
+    "minecraft:iron_block",
+    "minecraft:bookshelf",
+    "graveyard:sarcophagus",
+    "mca:deepslate_upright_headstone",
+    "comforts:rope_and_nail_shapeless",
+    "minecraft:polished_deepslate_wall",
+    "minecraft:crimson_door",
+    "minecraft:crimson_planks",
+    "minecraft:iron_bars",
+    "minecraft:cobbled_deepslate_wall",
+    "minecraft:chiseled_deepslate",
+    "minecraft:iron_door",
+    "minecraft:iron_trapdoor",
+    "minecraft:bone_meal",
+    "minecraft:deepslate_brick_slab",
+    "minecraft:torch",
+    "minecraft:cobbled_deepslate_slab",
+    "villagersplus:alchemist_table",
+    "minecraft:fletching_table",
+    "minecraft:loom",
+    "minecraft:stone_shovel",
+    "minecraft:barrel",
+    "minecraft:birch_slab",
+    "vinery:grapevine_stem",
+    "minecraft:polished_blackstone_slab",
+    "minecraft:birch_planks",
+    "minecraft:cyan_bed",
+    "minecraft:blackstone_wall",
+    "minecraft:cobblestone_wall",
+    "minecraft:iron_hoe",
+    "minecraft:warped_fence",
+    "minecraft:warped_planks",
+    "minecraft:golden_apple",
+    "progressivearchery:quiver",
+    "minecraft:red_dye_from_beetroot",
+    "minecraft:warped_door",
+    "minecraft:jukebox",
+    "minecraft:smoker",
+    "minecraft:stone_slab",
+    "minecraft:smithing_table",
+    "minecraft:lectern",
+    "minecraft:polished_blackstone_stairs",
+    "minecraft:magenta_stained_glass_pane",
+    "minecraft:magenta_stained_glass",
+    "minecraft:composter",
+    "minecraft:oak_slab",
+    "mca:blueprint",
+    "minecraft:blue_dye",
+    "minecraft:iron_shovel",
+    "progressivearchery:iron_arrowhead",
+    "progressivearchery:copper_arrowhead"
+  ],
   "recipe_defaults": {
     "added": [],
     "disabled": []

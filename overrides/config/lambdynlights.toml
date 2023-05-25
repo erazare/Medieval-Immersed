@@ -148,6 +148,7 @@ mode = "fancy"
 				big_chungus = true
 				withered_demon = true
 				accursed_lord_boss = true
+				evil_forlorn = true
 
 			[light_sources.settings.entities.vinery]
 				mule = true
@@ -176,4 +177,11 @@ mode = "fancy"
 
 			[light_sources.settings.entities.xtraarrows]
 				flint_torch_arrow = true
+
+			[light_sources.settings.entities.progressivearchery]
+				copper_arrow = true
+				flint_arrow = true
+				wooden_arrow = true
+				golden_arrow = true
+				spectral_arrow = true
 

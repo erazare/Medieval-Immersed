@@ -240,7 +240,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = v.2.0.9
+  source = v.2.1.0
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -252,5 +252,19 @@ customization {
   y = 117
   alignment = left
   height = 40
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/avuMArx9kr%btnaction_splitter_fm%
+  x = -3
+  width = 224
+  action = addbutton
+  actionid = 7929cb66-c154-4f33-bd5b-5a9d047afcb91684988673939
+  y = -39
+  label = Join us on Discord !
+  height = 20
 }
 

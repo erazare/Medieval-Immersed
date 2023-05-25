@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["waveapi","vanilla","fabric","file/FreshAnimations_v1.8.1.zip","file/1.19 §lEpic Adventures.zip","minecraft:supporteatinganimation","file/Cute Mob Model Sounds.zip","file/MCAVoices-1.0.0.zip","file/Improved Hostiles.zip","file/cozy-critters-1-19-4.zip","file/MCAR_VanillaMedieval_Universal_1.19.x_byDE4THR4SH_v1.zip","file/Fantasy_Ores_v7.1[classic].zip","resources/Repurposed_Structures-Bountiful_v2.zip","file/spell-magic-v1-0-0-rp.zip","resources/Owl\u0027s Data Pack Resources.zip","resources/Survival_Expansion_Textures.zip","resources/essence-rpg-resources-v1-17.zip","resources/Hexenwerk Resources.zip","file/Gothic RPG Font.zip","file/DiscreetGUI V1.4.zip"]
+resourcePacks:["waveapi","vanilla","fabric","file/FreshAnimations_v1.8.1.zip","file/The Vervada.zip","minecraft:supporteatinganimation","file/Cute Mob Model Sounds.zip","file/MCAVoices-1.0.0.zip","file/Improved Hostiles.zip","file/cozy-critters-1-19-4.zip","file/MCAR_VanillaMedieval_Universal_1.19.x_byDE4THR4SH_v1.zip","resources/Repurposed_Structures-Bountiful_v2.zip","file/spell-magic-v1-0-0-rp.zip","resources/Owl\u0027s Data Pack Resources.zip","file/Fantasy_Ores_v7.1[classic].zip","resources/Survival_Expansion_Textures.zip","resources/essence-rpg-resources-v1-17.zip","resources/Hexenwerk Resources.zip","file/Gothic RPG Font.zip","file/DiscreetGUI V1.4.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -122,7 +122,6 @@ key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
-key_key.firstperson.toggle:key.keyboard.f6
 key_key.advancedcompass.openconfig:key.keyboard.unknown
 key_key.advancedcompass.newwaypoint:key.keyboard.unknown
 key_key.advancedcompass.openwaypointlist:key.keyboard.unknown
@@ -202,6 +201,15 @@ key_key.origins.secondary_active:key.keyboard.h
 key_key.origins.view_origin:key.keyboard.o
 key_key.pickablevillagers.pickup:key.keyboard.period
 key_key.puffish_skills.open:key.keyboard.keypad.6
+key_key.xtracr_realcamera_togglePerspective:key.keyboard.f6
+key_key.xtracr_realcamera_toggleAdjustMode:key.keyboard.right.bracket
+key_key.xtracr_realcamera_toggleCameraMode:key.keyboard.left.bracket
+key_key.xtracr_realcamera_adjustUP:key.keyboard.unknown
+key_key.xtracr_realcamera_adjustDOWN:key.keyboard.unknown
+key_key.xtracr_realcamera_adjustBACK:key.keyboard.unknown
+key_key.xtracr_realcamera_adjustFRONT:key.keyboard.backslash
+key_key.xtracr_realcamera_adjustLEFT:key.keyboard.unknown
+key_key.xtracr_realcamera_adjustRIGHT:key.keyboard.unknown
 key_key.soulsweapons.return_freyr_sword:key.keyboard.unknown
 key_key.soulsweapons.freyr_sword_stationary:key.keyboard.unknown
 key_key.soulsweapons.collect_summons_soul_reaper:key.keyboard.unknown
