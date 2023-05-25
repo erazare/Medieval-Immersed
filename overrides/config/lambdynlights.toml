@@ -164,6 +164,7 @@ mode = "fancy"
 				female_villager = true
 				female_zombie_villager = true
 				male_zombie_villager = true
+				grim_reaper = true
 
 			[light_sources.settings.entities.sassot]
 				golden_spear = true

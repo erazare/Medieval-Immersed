@@ -171,8 +171,6 @@ key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.inventoryhud.togglepot:key.keyboard.unknown
 key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
-key_inventorymanagement.keybind.position_edit.player:key.keyboard.backspace
-key_inventorymanagement.keybind.position_edit.container:key.keyboard.backspace
 key_key.jade.config:key.keyboard.unknown
 key_key.jade.show_overlay:key.keyboard.keypad.1
 key_key.jade.toggle_liquid:key.keyboard.keypad.2

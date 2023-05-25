@@ -4,7 +4,7 @@ configVersion = 1
 
 [inventorymanagement]
 	# Simple toggle for the mod! Set to false to disable.
-	modEnabled = true
+	modEnabled = false
 	# Whether or not to show sort buttons in the UI.
 	showSort = true
 	# Whether or not to show transfer buttons in the UI.
