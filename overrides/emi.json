@@ -228,6 +228,10 @@
     }
   ],
   "craft_history": [
+    "minecraft:iron_hoe",
+    "croptopia:strawberry_seed",
+    "comforts:rope_and_nail_shapeless",
+    "minecraft:iron_ingot_from_iron_block",
     "minecraft:smoker",
     "minecraft:furnace",
     "minecraft:jukebox",
@@ -262,7 +266,6 @@
     "minecraft:bookshelf",
     "graveyard:sarcophagus",
     "mca:deepslate_upright_headstone",
-    "comforts:rope_and_nail_shapeless",
     "minecraft:polished_deepslate_wall",
     "minecraft:iron_bars",
     "minecraft:cobbled_deepslate_wall",
@@ -283,7 +286,6 @@
     "minecraft:cyan_bed",
     "minecraft:blackstone_wall",
     "minecraft:cobblestone_wall",
-    "minecraft:iron_hoe",
     "minecraft:warped_fence",
     "minecraft:warped_planks",
     "minecraft:golden_apple",

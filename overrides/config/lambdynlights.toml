@@ -149,6 +149,7 @@ mode = "fancy"
 				withered_demon = true
 				accursed_lord_boss = true
 				evil_forlorn = true
+				draugr_boss = true
 
 			[light_sources.settings.entities.vinery]
 				mule = true
@@ -185,4 +186,7 @@ mode = "fancy"
 				wooden_arrow = true
 				golden_arrow = true
 				spectral_arrow = true
+
+			[light_sources.settings.entities.digs_dnd_origins]
+				blue_breath = true
 
