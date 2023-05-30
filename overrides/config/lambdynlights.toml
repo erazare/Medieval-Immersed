@@ -191,3 +191,6 @@ mode = "fancy"
 			[light_sources.settings.entities.digs_dnd_origins]
 				blue_breath = true
 
+			[light_sources.settings.entities.mutantmonsters]
+				mutant_skeleton = true
+
