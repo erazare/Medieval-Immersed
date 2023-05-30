@@ -109,6 +109,7 @@ mode = "fancy"
 				evoker_fangs = true
 				phantom = true
 				trader_llama = true
+				frog = true
 
 			[light_sources.settings.entities.graveyard]
 				ghoul = true
